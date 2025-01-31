@@ -1,0 +1,561 @@
+"Order","Term_ID","Indented_Name","Parent_IDs","Level"
+1,"HP:0030956","Abnormality of cardiovascular system electrophysiology","",0
+2,"HP:0003115","  Abnormal EKG","HP:0030956",1
+3,"HP:0031595","    Abnormal P wave","HP:0003115",2
+4,"HP:0033122","      Absent P wave","HP:0031595",3
+5,"HP:0031598","      Notched P wave","HP:0031595",3
+6,"HP:0031599","      P mitrale","HP:0031595",3
+7,"HP:0031601","      P pulmonale","HP:0031595",3
+8,"HP:0031600","      P wave inversion","HP:0031595",3
+9,"HP:0034308","      Prolonged P wave","HP:0031595",3
+10,"HP:0031593","    Abnormal PR interval","HP:0003115",2
+11,"HP:0012248","      Prolonged PR interval","HP:0031593",3
+12,"HP:0005165","      Shortened PR interval","HP:0031593",3
+13,"HP:0031596","    Abnormal PR segment","HP:0003115",2
+14,"HP:0031594","      PR segment depression","HP:0031596",3
+15,"HP:0031597","      PR segment elevation","HP:0031596",3
+16,"HP:0025074","    Abnormal QRS complex","HP:0003115",2
+17,"HP:0025076","      Abnormal QRS voltage","HP:0025074",3
+18,"HP:0025077","        Decreased QRS voltage","HP:0025076",4
+19,"HP:0025078","        Electrical alternans","HP:0025076",4
+20,"HP:0025075","        Increased QRS voltage","HP:0025076",4
+21,"HP:0006677","      Prolonged QRS complex","HP:0025074",3
+22,"HP:0031547","    Abnormal QT interval","HP:0003115",2
+23,"HP:0001657","      Prolonged QT interval","HP:0031547",3
+24,"HP:0005184","        Prolonged QTc interval","HP:0001657",4
+25,"HP:0012232","      Shortened QT interval","HP:0031547",3
+26,"HP:6001160","    Abnormal R wave","HP:0003115",2
+27,"HP:6001161","      Poor R-wave progression","HP:6001160",3
+28,"HP:6001162","      Prominent V1-V2 R wave","HP:6001160",3
+29,"HP:0012249","    Abnormal ST segment","HP:0003115",2
+30,"HP:0032195","      Abnormal S wave","HP:0012249",3
+31,"HP:0032197","        Deep S wave in lead V5","HP:0032195",4
+32,"HP:0032196","        Prominent S wave in lead I","HP:0032195",4
+33,"HP:0012250","      ST segment depression","HP:0012249",3
+34,"HP:0012251","      ST segment elevation","HP:0012249",3
+35,"HP:6000984","        Coved type ST segment elevation","HP:0012251",4
+36,"HP:6000985","        Saddle-back type ST segment elevation","HP:0012251",4
+37,"HP:0005135","    Abnormal T-wave","HP:0003115",2
+38,"HP:0034303","      Notched T wave","HP:0005135",3
+39,"HP:0012266","      T-wave alternans","HP:0005135",3
+40,"HP:0010872","      T-wave inversion","HP:0005135",3
+41,"HP:0003140","        T-wave inversion in the right precordial leads","HP:0010872",4
+42,"HP:0025070","    Abnormal U wave","HP:0003115",2
+43,"HP:0025072","      Prominent U wave","HP:0025070",3
+44,"HP:0025071","      U wave inversion","HP:0025070",3
+45,"HP:0025073","        Exercise-induced U wave inversion","HP:0025071",4
+46,"HP:0033566","    Abnormal ventricular axis","HP:0003115",2
+47,"HP:0033569","      Extreme axis deviation","HP:0033566",3
+48,"HP:0033570","      Indeterminate ventricular axis","HP:0033566",3
+49,"HP:0033568","      Left axis deviation","HP:0033566",3
+50,"HP:0033567","      Right axis deviation","HP:0033566",3
+51,"HP:0034304","    Epsilon wave","HP:0003115",2
+52,"HP:6001087","    Irregular P-P interval","HP:0003115",2
+53,"HP:6001086","    Irregular RR interval","HP:0003115",2
+54,"HP:0012272","    J wave","HP:0003115",2
+55,"HP:0011675","  Arrhythmia","HP:0030956",1
+56,"HP:0011702","    Abnormal electrophysiology of sinoatrial node origin","HP:0011675",2
+57,"HP:0011704","      Sick sinus syndrome","HP:0011702; HP:0012722",3
+58,"HP:0012723","      Sinoatrial block","HP:0011702; HP:0012722",3
+59,"HP:0001688","      Sinus bradycardia","HP:0001662; HP:0011702",3
+60,"HP:0011703","      Sinus tachycardia","HP:0011702",3
+61,"HP:0040182","        Inappropriate sinus tachycardia","HP:0011703",4
+62,"HP:0031860","    Abnormal heart rate variability","HP:0011675",2
+63,"HP:0031861","      Decreased heart rate variability","HP:0031860",3
+64,"HP:0031862","      Increased heart rate variability","HP:0031860",3
+65,"HP:0001662","    Bradycardia","HP:0011675",2
+66,"HP:0001688","      Sinus bradycardia","HP:0001662; HP:0011702",3
+67,"HP:0001695","    Cardiac arrest","HP:0011675",2
+68,"HP:0031628","      Aborted sudden cardiac death","HP:0001695",3
+69,"HP:0001645","      Sudden cardiac death","HP:0001695",3
+70,"HP:0001962","    Palpitations","HP:0011675",2
+71,"HP:0005115","    Supraventricular arrhythmia","HP:0011675",2
+72,"HP:0001692","      Atrial arrhythmia","HP:0005115",3
+73,"HP:0005110","        Atrial fibrillation","HP:0001692",4
+74,"HP:0004757","          Paroxysmal atrial fibrillation","HP:0005110",5
+75,"HP:0004754","          Permanent atrial fibrillation","HP:0005110",5
+76,"HP:0004749","        Atrial flutter","HP:0001692",4
+77,"HP:0031672","          Reverse typical atrial flutter","HP:0004749",5
+78,"HP:0031671","          Typical atrial flutter","HP:0004749",5
+79,"HP:0011699","        Atrial reentry tachycardia","HP:0001692",4
+80,"HP:0011700","        Automatic atrial tachycardia","HP:0001692",4
+81,"HP:0011725","        Chaotic multifocal atrial tachycardia","HP:0001692",4
+82,"HP:0011701","        Multifocal atrial tachycardia","HP:0001692",4
+83,"HP:0025478","      Atrial standstill","HP:0005115",3
+84,"HP:0006699","      Premature atrial contractions","HP:0005115",3
+85,"HP:0004755","      Supraventricular tachycardia","HP:0001649; HP:0005115",3
+86,"HP:0011687","        AV nodal tachycardia","HP:0004755",4
+87,"HP:0011717","          Atrioventricular reentrant tachycardia","HP:0011687",5
+88,"HP:0031674","            Antidromic atrioventricular reentrant tachycardia","HP:0011717",6
+89,"HP:0031673","            Orthodromic atrioventricular reentrant tachycardia","HP:0011717",6
+90,"HP:0011716","          Junctional ectopic tachycardia","HP:0011687",5
+91,"HP:0004763","        Paroxysmal supraventricular tachycardia","HP:0004755",4
+92,"HP:0006671","          Paroxysmal atrial tachycardia","HP:0004763",5
+93,"HP:0011688","        Supraventricular tachycardia with an accessory connection mediated pathway","HP:0004755",4
+94,"HP:0011689","          Supraventricular tachycardia with a concealed accessory connection","HP:0011688",5
+95,"HP:0011690","            Permanent junctional reciprocating tachycardia","HP:0011689",6
+96,"HP:0011691","            Supraventricular tachycardia with a concealed accessory pathway on the left free wall","HP:0011689",6
+97,"HP:0011692","            Supraventricular tachycardia with a concealed accessory pathway on the right free wall","HP:0011689",6
+98,"HP:0011693","            Supraventricular tachycardia with a concealed accessory pathway on the septum","HP:0011689",6
+99,"HP:0011694","          Supraventricular tachycardia with a manifest accessory pathway","HP:0011688",5
+100,"HP:0011696","            Supraventricular tachycardia with a manifest accessory pathway on the left free wall","HP:0011694",6
+101,"HP:0011697","            Supraventricular tachycardia with a manifest accessory pathway on the right free wall","HP:0011694",6
+102,"HP:0011698","            Supraventricular tachycardia with a manifest accessory pathway on the septum","HP:0011694",6
+103,"HP:0001649","    Tachycardia","HP:0011675",2
+104,"HP:0006688","      Paroxysmal tachycardia","HP:0001649",3
+105,"HP:0004755","      Supraventricular tachycardia","HP:0001649; HP:0005115",3
+106,"HP:0011687","        AV nodal tachycardia","HP:0004755",4
+107,"HP:0011717","          Atrioventricular reentrant tachycardia","HP:0011687",5
+108,"HP:0031674","            Antidromic atrioventricular reentrant tachycardia","HP:0011717",6
+109,"HP:0031673","            Orthodromic atrioventricular reentrant tachycardia","HP:0011717",6
+110,"HP:0011716","          Junctional ectopic tachycardia","HP:0011687",5
+111,"HP:0004763","        Paroxysmal supraventricular tachycardia","HP:0004755",4
+112,"HP:0006671","          Paroxysmal atrial tachycardia","HP:0004763",5
+113,"HP:0011688","        Supraventricular tachycardia with an accessory connection mediated pathway","HP:0004755",4
+114,"HP:0011689","          Supraventricular tachycardia with a concealed accessory connection","HP:0011688",5
+115,"HP:0011690","            Permanent junctional reciprocating tachycardia","HP:0011689",6
+116,"HP:0011691","            Supraventricular tachycardia with a concealed accessory pathway on the left free wall","HP:0011689",6
+117,"HP:0011692","            Supraventricular tachycardia with a concealed accessory pathway on the right free wall","HP:0011689",6
+118,"HP:0011693","            Supraventricular tachycardia with a concealed accessory pathway on the septum","HP:0011689",6
+119,"HP:0011694","          Supraventricular tachycardia with a manifest accessory pathway","HP:0011688",5
+120,"HP:0011696","            Supraventricular tachycardia with a manifest accessory pathway on the left free wall","HP:0011694",6
+121,"HP:0011697","            Supraventricular tachycardia with a manifest accessory pathway on the right free wall","HP:0011694",6
+122,"HP:0011698","            Supraventricular tachycardia with a manifest accessory pathway on the septum","HP:0011694",6
+123,"HP:0004756","      Ventricular tachycardia","HP:0001649",3
+124,"HP:0034040","        Bidirectional ventricular tachycardia","HP:0004756",4
+125,"HP:0004758","        Effort-induced polymorphic ventricular tachycardia","HP:0004756",4
+126,"HP:0031675","        Fascicular left ventricular tachycardia","HP:0004756",4
+127,"HP:0031676","        Monomorphic ventricular tachycardia","HP:0004756",4
+128,"HP:0004751","        Paroxysmal ventricular tachycardia","HP:0004756",4
+129,"HP:0031677","        Polymorphic ventricular tachycardia","HP:0004756",4
+130,"HP:0011841","        Ventricular flutter","HP:0004756",4
+131,"HP:0004308","    Ventricular arrhythmia","HP:0011675",2
+132,"HP:0006682","      Premature ventricular contraction","HP:0004308",3
+133,"HP:0005147","        Bidirectional ventricular ectopy","HP:0006682",4
+134,"HP:0006696","        Polymorphic and polytopic ventricular extrasystoles","HP:0006682",4
+135,"HP:0034039","        Ventricular couplet","HP:0006682",4
+136,"HP:0001664","      Torsade de pointes","HP:0004308",3
+137,"HP:0034306","      Ventricular bigeminy","HP:0004308",3
+138,"HP:0005155","      Ventricular escape rhythm","HP:0004308",3
+139,"HP:0001663","      Ventricular fibrillation","HP:0004308",3
+140,"HP:0004309","      Ventricular preexcitation","HP:0004308",3
+141,"HP:0006684","        Ventricular preexcitation with multiple accessory pathways","HP:0004309",4
+142,"HP:0001716","        Wolff-Parkinson-White syndrome","HP:0004309",4
+143,"HP:0031546","  Cardiac conduction abnormality","HP:0030956",1
+144,"HP:0005150","    Abnormal atrioventricular conduction","HP:0031546",2
+145,"HP:0001678","      Atrioventricular block","HP:0005150; HP:0012722",3
+146,"HP:0006681","        Absent atrioventricular node","HP:0001678",4
+147,"HP:0011705","        First degree atrioventricular block","HP:0001678",4
+148,"HP:0011706","        Second degree atrioventricular block","HP:0001678",4
+149,"HP:0034305","          2:1 atrioventricular block","HP:0011706",5
+150,"HP:0011707","          Mobitz I atrioventricular block","HP:0011706",5
+151,"HP:0011708","          Mobitz II atrioventricular block","HP:0011706",5
+152,"HP:0001709","        Third degree atrioventricular block","HP:0001678",4
+153,"HP:0005170","          Complete heart block with broad QRS complexes","HP:0001709",5
+154,"HP:0005178","          Complete heart block with narrow QRS complexes","HP:0001709",5
+155,"HP:0011709","      Atrioventricular dissociation","HP:0005150",3
+156,"HP:0004752","        Congenital atrioventricular dissociation","HP:0011709",4
+157,"HP:0012722","    Heart block","HP:0031546",2
+158,"HP:0001678","      Atrioventricular block","HP:0005150; HP:0012722",3
+159,"HP:0006681","        Absent atrioventricular node","HP:0001678",4
+160,"HP:0011705","        First degree atrioventricular block","HP:0001678",4
+161,"HP:0011706","        Second degree atrioventricular block","HP:0001678",4
+162,"HP:0034305","          2:1 atrioventricular block","HP:0011706",5
+163,"HP:0011707","          Mobitz I atrioventricular block","HP:0011706",5
+164,"HP:0011708","          Mobitz II atrioventricular block","HP:0011706",5
+165,"HP:0001709","        Third degree atrioventricular block","HP:0001678",4
+166,"HP:0005170","          Complete heart block with broad QRS complexes","HP:0001709",5
+167,"HP:0005178","          Complete heart block with narrow QRS complexes","HP:0001709",5
+168,"HP:0011710","      Bundle branch block","HP:0012722",3
+169,"HP:6000313","        Incomplete right bundle branch block","HP:0011710",4
+170,"HP:0011713","        Left bundle branch block","HP:0011710",4
+171,"HP:0011711","          Left anterior fascicular block","HP:0011713",5
+172,"HP:0005172","          Left posterior fascicular block","HP:0011713",5
+173,"HP:0011712","        Right bundle branch block","HP:0011710",4
+174,"HP:0011715","        Trifascicular block","HP:0011710",4
+175,"HP:0011704","      Sick sinus syndrome","HP:0011702; HP:0012722",3
+176,"HP:0012723","      Sinoatrial block","HP:0011702; HP:0012722",3
+177,"HP:0001627","Abnormal heart morphology","",0
+178,"HP:0004307","  Abnormal anatomic location of the heart","HP:0001627",1
+179,"HP:0011600","    Abnormal direction of ventricular apex","HP:0004307",2
+180,"HP:0011602","      Midline direction of ventricular apex","HP:0011600",3
+181,"HP:0011601","      Rightward direction of ventricular apex","HP:0011600",3
+182,"HP:0001651","    Dextrocardia","HP:0004307",2
+183,"HP:0001696","      Situs inversus totalis","HP:0001651; HP:0011534",3
+184,"HP:0001683","    Ectopia cordis","HP:0004307",2
+185,"HP:0011582","      Abdominal ectopia cordis","HP:0001683",3
+186,"HP:0011583","      Cervical ectopia cordis","HP:0001683",3
+187,"HP:0011585","      Thoracic ectopia cordis","HP:0001683",3
+188,"HP:0011586","      Thoracoabdominal ectopia cordis","HP:0001683",3
+189,"HP:0011584","      Thoracocervical ectopia cordis","HP:0001683",3
+190,"HP:0011599","    Mesocardia","HP:0004307",2
+191,"HP:0032580","  Abnormal bulbus cordis morphology","HP:0001627",1
+192,"HP:0005120","  Abnormal cardiac atrium morphology","HP:0001627",1
+193,"HP:0011535","    Abnormal atrial arrangement","HP:0005120; HP:0011534",2
+194,"HP:0011539","      Atrial situs ambiguous","HP:0011535",3
+195,"HP:0011538","      Atrial situs inversus","HP:0011535",3
+196,"HP:0011537","      Left atrial isomerism","HP:0011535",3
+197,"HP:0011536","      Right atrial isomerism","HP:0011535",3
+198,"HP:0011642","    Abnormal coronary sinus morphology","HP:0005120",2
+199,"HP:0031783","      Absent coronary sinus","HP:0011642",3
+200,"HP:0011643","      Coronary sinus atrial septal defect","HP:0011642",3
+201,"HP:0011644","      Coronary sinus diverticulum","HP:0011642",3
+202,"HP:0031298","      Coronary sinus enlargement","HP:0011642",3
+203,"HP:0031297","      Unroofed coronary sinus","HP:0001631; HP:0011642",3
+204,"HP:0025579","    Abnormal left atrium morphology","HP:0005120",2
+205,"HP:0005156","      Hypoplastic left atrium","HP:0025579",3
+206,"HP:0031295","      Left atrial enlargement","HP:0025579",3
+207,"HP:6000691","      Left atrial fibrosis","HP:0025579",3
+208,"HP:0025580","    Abnormal right atrium morphology","HP:0005120",2
+209,"HP:0031294","      Hypoplastic right atrium","HP:0025580",3
+210,"HP:0030718","      Right atrial enlargement","HP:0025580",3
+211,"HP:0033138","      Right atrial thrombus","HP:0025580",3
+212,"HP:0001631","    Atrial septal defect","HP:0005120; HP:0011994",2
+213,"HP:0001655","      Patent foramen ovale","HP:0001631",3
+214,"HP:0010445","      Primum atrial septal defect","HP:0001631; HP:0006695",3
+215,"HP:0001684","      Secundum atrial septal defect","HP:0001631",3
+216,"HP:0011567","      Sinus venosus atrial septal defect","HP:0001631",3
+217,"HP:0031017","      Swiss cheese atrial septal defect","HP:0001631",3
+218,"HP:0031297","      Unroofed coronary sinus","HP:0001631; HP:0011642",3
+219,"HP:0031296","    Atrial septal hypertrophy","HP:0005120",2
+220,"HP:0011565","    Common atrium","HP:0005120",2
+221,"HP:0010774","    Cor triatriatum","HP:0005120",2
+222,"HP:0011566","      Cor triatriatum dexter","HP:0010774",3
+223,"HP:0031134","      Cor triatriatum sinister","HP:0010774",3
+224,"HP:4000001","  Abnormal cardiac magnetic resonance imaging finding","HP:0001627",1
+225,"HP:4000006","    Elevated myocardial native T1","HP:4000001",2
+226,"HP:4000003","    Elevated myocardial native T2","HP:4000001",2
+227,"HP:4000004","    Myocardial late gadolinium enhancement","HP:4000001",2
+228,"HP:0001671","  Abnormal cardiac septum morphology","HP:0001627",1
+229,"HP:0011994","    Abnormal atrial septum morphology","HP:0001671",2
+230,"HP:0001631","      Atrial septal defect","HP:0005120; HP:0011994",3
+231,"HP:0001655","        Patent foramen ovale","HP:0001631",4
+232,"HP:0010445","        Primum atrial septal defect","HP:0001631; HP:0006695",4
+233,"HP:0001684","        Secundum atrial septal defect","HP:0001631",4
+234,"HP:0011567","        Sinus venosus atrial septal defect","HP:0001631",4
+235,"HP:0031017","        Swiss cheese atrial septal defect","HP:0001631",4
+236,"HP:0031297","        Unroofed coronary sinus","HP:0001631; HP:0011642",4
+237,"HP:0011995","      Atrial septal dilatation","HP:0011994",3
+238,"HP:0010438","    Abnormal ventricular septum morphology","HP:0001671; HP:0001713",2
+239,"HP:0030957","      Ventricular septal aneurysm","HP:0010438",3
+240,"HP:0030958","        Membranous ventricular septal aneurysm","HP:0030957",4
+241,"HP:0030959","        Muscular ventricular septal aneurysm","HP:0030957",4
+242,"HP:0001629","      Ventricular septal defect","HP:0010438",3
+243,"HP:0011621","        Gerbode ventricular septal defect","HP:0001629",4
+244,"HP:0011622","        Inlet ventricular septal defect","HP:0001629",4
+245,"HP:0011623","        Muscular ventricular septal defect","HP:0001629",4
+246,"HP:0011624","          Apical muscular ventricular septal defect","HP:0011623",5
+247,"HP:0011625","          Multiple muscular ventricular septal defects","HP:0011623",5
+248,"HP:0011684","        Non-restrictive ventricular septal defect","HP:0001629",4
+249,"HP:0011682","        Perimembranous ventricular septal defect","HP:0001629",4
+250,"HP:0011683","        Restrictive ventricular septal defect","HP:0001629",4
+251,"HP:0011681","        Subarterial ventricular septal defect","HP:0001629",4
+252,"HP:0005144","      Ventricular septal hypertrophy","HP:0010438",3
+253,"HP:0006695","    Atrioventricular canal defect","HP:0001671",2
+254,"HP:0001674","      Complete atrioventricular canal defect","HP:0006695",3
+255,"HP:0011576","      Intermediate atrioventricular canal defect","HP:0006695",3
+256,"HP:0011577","      Partial atrioventricular canal defect","HP:0006695",3
+257,"HP:0010445","      Primum atrial septal defect","HP:0001631; HP:0006695",3
+258,"HP:0011578","      Transitional atrioventricular canal defect","HP:0006695",3
+259,"HP:0011579","      Unbalanced atrioventricular canal defect","HP:0006695",3
+260,"HP:0001713","  Abnormal cardiac ventricle morphology","HP:0001627",1
+261,"HP:0001711","    Abnormal left ventricle morphology","HP:0001713",2
+262,"HP:0011103","      Abnormal left ventricular outflow tract morphology","HP:0001711",3
+263,"HP:0031971","        Subaortic ventricular septal bulge","HP:0011103",4
+264,"HP:0001682","        Subvalvular aortic stenosis","HP:0011103",4
+265,"HP:0005174","          Membranous subvalvular aortic stenosis","HP:0001682",5
+266,"HP:0001691","          Muscular subvalvular aortic stenosis","HP:0001682",5
+267,"HP:0025445","      Abnormal papillary muscle morphology","HP:0001711",3
+268,"HP:0025446","        Anomalous insertion of papillary muscle directly into anterior mitral leaflet","HP:0025445",4
+269,"HP:0025447","        Displacement of the papillary muscles","HP:0025445",4
+270,"HP:0025448","          Anterior displacement of the papillary muscles","HP:0025447",5
+271,"HP:0025449","          Apically displaced anterolateral papillary muscle","HP:0025447",5
+272,"HP:0011581","      Double outlet left ventricle","HP:0001711",3
+273,"HP:6000144","      Left ventricular aneurysm","HP:0001711",3
+274,"HP:4000141","      Left ventricular dilatation","HP:0001711",3
+275,"HP:0001712","      Left ventricular hypertrophy","HP:0001711; HP:0001714",3
+276,"HP:0005129","        Congenital hypertrophy of left ventricle","HP:0001712",4
+277,"HP:6001036","      Left ventricular rupture","HP:0001637; HP:0001711",3
+278,"HP:0040412","      Left ventricular thrombus","HP:0001711",3
+279,"HP:0001707","    Abnormal right ventricle morphology","HP:0001713",2
+280,"HP:0030740","      Anomalous muscle bundle of the right ventricle","HP:0001707",3
+281,"HP:0001648","      Cor pulmonale","HP:0001707",3
+282,"HP:0034364","      Fibrofatty replacement of right ventricular myocardium","HP:0001707",3
+283,"HP:0004762","      Hypoplasia of right ventricle","HP:0001707",3
+284,"HP:6000667","      Right ventricular aneurysm","HP:0001707",3
+285,"HP:0011663","      Right ventricular cardiomyopathy","HP:0001638; HP:0001707",3
+286,"HP:0005133","      Right ventricular dilatation","HP:0001707",3
+287,"HP:0001667","      Right ventricular hypertrophy","HP:0001707; HP:0001714",3
+288,"HP:0010438","    Abnormal ventricular septum morphology","HP:0001671; HP:0001713",2
+289,"HP:0030957","      Ventricular septal aneurysm","HP:0010438",3
+290,"HP:0030958","        Membranous ventricular septal aneurysm","HP:0030957",4
+291,"HP:0030959","        Muscular ventricular septal aneurysm","HP:0030957",4
+292,"HP:0001629","      Ventricular septal defect","HP:0010438",3
+293,"HP:0011621","        Gerbode ventricular septal defect","HP:0001629",4
+294,"HP:0011622","        Inlet ventricular septal defect","HP:0001629",4
+295,"HP:0011623","        Muscular ventricular septal defect","HP:0001629",4
+296,"HP:0011624","          Apical muscular ventricular septal defect","HP:0011623",5
+297,"HP:0011625","          Multiple muscular ventricular septal defects","HP:0011623",5
+298,"HP:0011684","        Non-restrictive ventricular septal defect","HP:0001629",4
+299,"HP:0011682","        Perimembranous ventricular septal defect","HP:0001629",4
+300,"HP:0011683","        Restrictive ventricular septal defect","HP:0001629",4
+301,"HP:0011681","        Subarterial ventricular septal defect","HP:0001629",4
+302,"HP:0005144","      Ventricular septal hypertrophy","HP:0010438",3
+303,"HP:0100571","    Cardiac diverticulum","HP:0001713",2
+304,"HP:0100572","      Fibrous cardiac diverticulum","HP:0006698; HP:0100571",3
+305,"HP:0100573","      Muscular cardiac diverticulum","HP:0100571",3
+306,"HP:0006698","    Dilatation of the ventricular cavity","HP:0001713",2
+307,"HP:0100572","      Fibrous cardiac diverticulum","HP:0006698; HP:0100571",3
+308,"HP:0006690","    Myocardial calcification","HP:0001713",2
+309,"HP:0006693","    Myocardial steatosis","HP:0001713",2
+310,"HP:0001750","    Single ventricle","HP:0001713",2
+311,"HP:0011555","      Double inlet left ventricle","HP:0001750; HP:0011554",3
+312,"HP:0011556","      Double inlet right ventricle","HP:0001750; HP:0011554",3
+313,"HP:0011557","      Double inlet to single ventricle of indeterminate morphology","HP:0001750; HP:0011554",3
+314,"HP:0011558","        Double inlet to single ventricle with common atrioventricular orifice","HP:0011557",4
+315,"HP:0011559","        Double inlet to single ventricle with two atrioventricular valves","HP:0011557",4
+316,"HP:0011680","      Single ventricle of indeterminate morphology","HP:0001750",3
+317,"HP:0001714","    Ventricular hypertrophy","HP:0001713",2
+318,"HP:0200128","      Biventricular hypertrophy","HP:0001714",3
+319,"HP:0001712","      Left ventricular hypertrophy","HP:0001711; HP:0001714",3
+320,"HP:0005129","        Congenital hypertrophy of left ventricle","HP:0001712",4
+321,"HP:0001667","      Right ventricular hypertrophy","HP:0001707; HP:0001714",3
+322,"HP:0031331","  Abnormal cardiomyocyte morphology","HP:0001627",1
+323,"HP:0031337","    Abnormal cardiomyocyte connexin43 staining","HP:0031331",2
+324,"HP:0031339","    Abnormal cardiomyocyte dystrophin staining","HP:0031331",2
+325,"HP:0031335","    Abnormal cardiomyocyte mitochondrial morphology","HP:0031331",2
+326,"HP:0031336","      Intranuclear cardiomyocyte mitochondria","HP:0031335",3
+327,"HP:0031338","    Abnormal cardiomyocyte plakoglobin staining","HP:0031331",2
+328,"HP:0031332","    Cardiomyocyte degeneration","HP:0031331",2
+329,"HP:0031319","    Cardiomyocyte hypertrophy","HP:0031331",2
+330,"HP:0031334","    Cardiomyocyte inclusion bodies","HP:0031331",2
+331,"HP:0034796","      Cardiomyocyte hyaline bodies","HP:0031334",3
+332,"HP:0031320","    Cardiomyocyte mitochondrial proliferation","HP:0031331",2
+333,"HP:0031333","    Myocardial sarcomeric disarray","HP:0031331",2
+334,"HP:0033997","    Perinuclear cardiomyocyte vacuolization","HP:0031331",2
+335,"HP:0011545","  Abnormal connection of the cardiac segments","HP:0001627",1
+336,"HP:0011546","    Abnormal atrioventricular connection","HP:0011545",2
+337,"HP:0011547","      Absent left sided atrioventricular connection","HP:0011546",3
+338,"HP:0011550","        Biventricular heart with straddling right sided atrioventricular valve and absent left sided atrioventricular connection","HP:0011547",4
+339,"HP:0011551","        Right sided atrium to left ventricle and absent left sided atrioventricular connection","HP:0011547",4
+340,"HP:0011549","        Univentricular heart with absent left sided atrioventricular connection","HP:0011547",4
+341,"HP:0011548","      Absent right sided atrioventricular connection","HP:0011546",3
+342,"HP:0011552","      Ambiguous atrioventricular connection","HP:0011546",3
+343,"HP:0011553","      Discordant atrioventricular connection","HP:0011546",3
+344,"HP:0011554","      Double inlet atrioventricular connection","HP:0011546",3
+345,"HP:0011555","        Double inlet left ventricle","HP:0001750; HP:0011554",4
+346,"HP:0011556","        Double inlet right ventricle","HP:0001750; HP:0011554",4
+347,"HP:0011557","        Double inlet to single ventricle of indeterminate morphology","HP:0001750; HP:0011554",4
+348,"HP:0011558","          Double inlet to single ventricle with common atrioventricular orifice","HP:0011557",5
+349,"HP:0011559","          Double inlet to single ventricle with two atrioventricular valves","HP:0011557",5
+350,"HP:0011560","      Mitral atresia","HP:0001633; HP:0011546",3
+351,"HP:0011561","      Overriding atrioventricular valve","HP:0011546",3
+352,"HP:0011562","      Straddling atrioventricular valve","HP:0011546",3
+353,"HP:0011563","    Abnormal ventriculoarterial connection","HP:0011545",2
+354,"HP:0001710","      Conotruncal defect","HP:0011563",3
+355,"HP:0001719","        Double outlet right ventricle","HP:0001710; HP:0011723",4
+356,"HP:0011651","          Double outlet right ventricle with doubly committed ventricular septal defect and pulmonary stenosis","HP:0001719",5
+357,"HP:0011652","          Double outlet right ventricle with doubly committed ventricular septal defect without pulmonary stenosis","HP:0001719",5
+358,"HP:0011653","          Double outlet right ventricle with non-committed ventricular septal defect and pulmonary stenosis","HP:0001719",5
+359,"HP:0011654","          Double outlet right ventricle with non-committed ventricular septal defect without pulmonary stenosis","HP:0001719",5
+360,"HP:0011655","          Double outlet right ventricle with subaortic ventricular septal defect and pulmonary stenosis","HP:0001719",5
+361,"HP:0011656","          Double outlet right ventricle with subaortic ventricular septal defect without pulmonary stenosis","HP:0001719",5
+362,"HP:0011657","          Double outlet right ventricle with subpulmonary ventricular septal defect and pulmonary stenosis","HP:0001719",5
+363,"HP:0011658","          Double outlet right ventricle with subpulmonary ventricular septal defect without pulmonary stenosis","HP:0001719",5
+364,"HP:0001636","        Tetralogy of Fallot","HP:0001710",4
+365,"HP:0011659","          Tetralogy of Fallot with absent pulmonary valve","HP:0001636; HP:0005134",5
+366,"HP:0011676","          Tetralogy of Fallot with absent subarterial conus","HP:0001636",5
+367,"HP:0011677","          Tetralogy of Fallot with atrioventricular canal defect","HP:0001636",5
+368,"HP:0012516","          Tetralogy of Fallot with pulmonary atresia","HP:0001636",5
+369,"HP:0011678","            Tetralogy of Fallot with pulmonary atresia and major aortopulmonary collateral arteries","HP:0012516",6
+370,"HP:0011679","          Tetralogy of Fallot with pulmonary stenosis","HP:0001636",5
+371,"HP:0001669","      Transposition of the great arteries","HP:0011563",3
+372,"HP:0031348","        Dextrotransposition of the great arteries","HP:0001669",4
+373,"HP:0031349","        Levotransposition of the great arteries","HP:0001669",4
+374,"HP:0004306","  Abnormal endocardium morphology","HP:0001627",1
+375,"HP:0001706","    Endocardial fibroelastosis","HP:0004306",2
+376,"HP:0006685","    Endocardial fibrosis","HP:0004306",2
+377,"HP:0100584","    Endocarditis","HP:0004306",2
+378,"HP:0006689","      Bacterial endocarditis","HP:0100584",3
+379,"HP:0011714","      Libman-Sacks lesions","HP:0100584",3
+380,"HP:0001654","  Abnormal heart valve morphology","HP:0001627",1
+381,"HP:0001646","    Abnormal aortic valve morphology","HP:0001654",2
+382,"HP:0031567","      Abnormal aortic valve cusp morphology","HP:0001646",3
+383,"HP:0031569","        Absent aortic valve cusps","HP:0031567",4
+384,"HP:0001647","        Bicuspid aortic valve","HP:0031567",4
+385,"HP:0031117","          Purely bicuspid aortic valve","HP:0001647",5
+386,"HP:0031118","          Single raphe bicuspid aortic valve","HP:0001647",5
+387,"HP:0031121","            Bicuspid aortic valve with left-noncoronary cusp fusion","HP:0031118",6
+388,"HP:0031119","            Bicuspid aortic valve with right-left cusp fusion","HP:0031118",6
+389,"HP:0031120","            Bicuspid aortic valve with right-noncoronary cusp fusion","HP:0031118",6
+390,"HP:0031122","          Two-raphe bicuspid aortic valve","HP:0001647",5
+391,"HP:0031655","        Quadricuspid aortic valve","HP:0031567",4
+392,"HP:0031568","        Thickened aortic valve cusp","HP:0031567",4
+393,"HP:0012561","        Unicuspid aortic valve","HP:0031567",4
+394,"HP:0010883","      Aortic valve atresia","HP:0001646",3
+395,"HP:0004380","      Aortic valve calcification","HP:0001646; HP:0005146",3
+396,"HP:0033538","        Aortic annulus calcification","HP:0004380",4
+397,"HP:0033641","        Aortic valve leaflet calcification","HP:0004380",4
+398,"HP:0025578","      Aortic valve prolapse","HP:0001646",3
+399,"HP:0005176","      Dysplastic aortic valve","HP:0001646",3
+400,"HP:0006705","    Abnormal atrioventricular valve morphology","HP:0001654",2
+401,"HP:0001633","      Abnormal mitral valve morphology","HP:0006705",3
+402,"HP:0031478","        Abnormal mitral valve annulus morphology","HP:0001633",4
+403,"HP:0031480","        Abnormal mitral valve leaflet morphology","HP:0001633",4
+404,"HP:0011569","          Cleft anterior mitral valve leaflet","HP:0031480",5
+405,"HP:6000342","          Thickened mitral valve cusp","HP:0031480",5
+406,"HP:0025523","        Abnormal morphology of the chordae tendinae of the mitral valve","HP:0001633",4
+407,"HP:0025522","          Elongated chordae tendinae of the mitral valve","HP:0025523",5
+408,"HP:0034419","          Mitral chordae tendinae rupture","HP:0025523",5
+409,"HP:0011571","          Parachute mitral valve","HP:0025523",5
+410,"HP:0011580","          Short chordae tendineae of the mitral valve","HP:0025523",5
+411,"HP:0031479","        Dilatation of the mitral annulus","HP:0001633",4
+412,"HP:0011568","        Double orifice mitral valve","HP:0001633",4
+413,"HP:0011560","        Mitral atresia","HP:0001633; HP:0011546",4
+414,"HP:0011564","        Mitral valve arcade","HP:0001633",4
+415,"HP:0004382","        Mitral valve calcification","HP:0001633; HP:0005146",4
+416,"HP:0005136","          Mitral annular calcification","HP:0004382",5
+417,"HP:0033642","          Mitral valve leaflet calcification","HP:0004382",5
+418,"HP:0001634","        Mitral valve prolapse","HP:0001633",4
+419,"HP:0004764","          Myxomatous mitral valve degeneration","HP:0001634",5
+420,"HP:0011572","        Supramitral ring","HP:0001633",4
+421,"HP:0001702","      Abnormal tricuspid valve morphology","HP:0006705",3
+422,"HP:0031442","        Abnormal tricuspid chordae tendinae morphology","HP:0001702",4
+423,"HP:0006692","          Short chordae tendineae of the tricuspid valve","HP:0031442",5
+424,"HP:0031441","        Abnormal tricuspid valve annulus morphology","HP:0001702",4
+425,"HP:0031444","          Dilatation of the tricuspid annulus","HP:0031441",5
+426,"HP:0031443","        Abnormal tricuspid valve leaflet morphology","HP:0001702",4
+427,"HP:0030732","        Dysplastic tricuspid valve","HP:0001702",4
+428,"HP:0010316","        Ebstein anomaly of the tricuspid valve","HP:0001702",4
+429,"HP:0011573","        Hypoplastic tricuspid valve","HP:0001702",4
+430,"HP:0011575","        Imperforate tricuspid valve","HP:0001702; HP:0011574",4
+431,"HP:6001068","        Thickened tricuspid valve cusp","HP:0001702",4
+432,"HP:0011662","        Tricuspid atresia","HP:0001702",4
+433,"HP:0030719","          Unguarded tricuspid valve","HP:0011662",5
+434,"HP:0001704","        Tricuspid valve prolapse","HP:0001702",4
+435,"HP:0011574","      Imperforate atrioventricular valve","HP:0006705",3
+436,"HP:0011575","        Imperforate tricuspid valve","HP:0001702; HP:0011574",4
+437,"HP:0001641","    Abnormal pulmonary valve morphology","HP:0001654",2
+438,"HP:0031566","      Abnormal pulmonary valve cusp morphology","HP:0001641",3
+439,"HP:0005182","        Bicuspid pulmonary valve","HP:0031566",4
+440,"HP:0005134","      Absence of the pulmonary valve","HP:0001641",3
+441,"HP:0011659","        Tetralogy of Fallot with absent pulmonary valve","HP:0001636; HP:0005134",4
+442,"HP:0005164","      Dysplastic pulmonary valve","HP:0001641",3
+443,"HP:0010882","      Pulmonary valve atresia","HP:0001641",3
+444,"HP:0005148","      Pulmonary valve defects","HP:0001641",3
+445,"HP:0006691","      Pulmonic valve myxoma","HP:0001641",3
+446,"HP:0005146","    Cardiac valve calcification","HP:0001654",2
+447,"HP:0004380","      Aortic valve calcification","HP:0001646; HP:0005146",3
+448,"HP:0033538","        Aortic annulus calcification","HP:0004380",4
+449,"HP:0033641","        Aortic valve leaflet calcification","HP:0004380",4
+450,"HP:0006694","      Early progressive calcific cardiac valvular disease","HP:0005146",3
+451,"HP:0004382","      Mitral valve calcification","HP:0001633; HP:0005146",3
+452,"HP:0005136","        Mitral annular calcification","HP:0004382",4
+453,"HP:0033642","        Mitral valve leaflet calcification","HP:0004382",4
+454,"HP:6000326","    Cardiac valve vegetations","HP:0001654",2
+455,"HP:0001637","  Abnormal myocardium morphology","HP:0001627",1
+456,"HP:0030681","    Abnormal morphology of myocardial trabeculae","HP:0001637",2
+457,"HP:0031192","      Abnormal morphology of left ventricular trabeculae","HP:0030681",3
+458,"HP:0031195","        Apical hypertrabeculation of the left ventricle","HP:0031192",4
+459,"HP:0031194","        Increased density of left ventricular trabeculae","HP:0031192",4
+460,"HP:0030682","        Left ventricular noncompaction","HP:0031192",4
+461,"HP:0031196","        Thin myocardium compact layer","HP:0031192",4
+462,"HP:0031193","      Abnormal morphology of right ventricular trabeculae","HP:0030681",3
+463,"HP:0031316","    Abnormal ventricular myocardium morphology","HP:0001637",2
+464,"HP:0030843","    Cardiac amyloidosis","HP:0001637",2
+465,"HP:0031326","      Monoclonal light chain cardiac amyloidosis","HP:0030843",3
+466,"HP:0031327","      Transthyretin cardiac amyloidosis","HP:0030843",3
+467,"HP:0034835","    Cardiac polyglucosan accumulation","HP:0001637",2
+468,"HP:0001638","    Cardiomyopathy","HP:0001637",2
+469,"HP:0200127","      Atrial cardiomyopathy","HP:0001638",3
+470,"HP:0001644","      Dilated cardiomyopathy","HP:0001638",3
+471,"HP:0005152","      Histiocytoid cardiomyopathy","HP:0001638",3
+472,"HP:0001639","      Hypertrophic cardiomyopathy","HP:0001638",3
+473,"HP:0031992","        Apical hypertrophic cardiomyopathy","HP:0001639",4
+474,"HP:0001670","        Asymmetric septal hypertrophy","HP:0001639",4
+475,"HP:0005157","        Concentric hypertrophic cardiomyopathy","HP:0001639",4
+476,"HP:0012817","      Noncompaction cardiomyopathy","HP:0001638",3
+477,"HP:0012818","        Biventricular noncompaction cardiomyopathy","HP:0012817",4
+478,"HP:0011664","        Left ventricular noncompaction cardiomyopathy","HP:0012817",4
+479,"HP:0012816","        Right ventricular noncompaction cardiomyopathy","HP:0012817",4
+480,"HP:0001723","      Restrictive cardiomyopathy","HP:0001638",3
+481,"HP:0011663","      Right ventricular cardiomyopathy","HP:0001638; HP:0001707",3
+482,"HP:0011665","      Takotsubo cardiomyopathy","HP:0001638",3
+483,"HP:6000663","    Elevated myocardial iron load","HP:0001637",2
+484,"HP:0031317","    Fatty replacement of ventricular myocardial tissue","HP:0001637",2
+485,"HP:0003338","    Focal necrosis of right ventricular muscle cells","HP:0001637",2
+486,"HP:0034532","    Increased myocardial glycogen content","HP:0001637",2
+487,"HP:6000067","    Increased myocardial pyrophosphate uptake","HP:0001637",2
+488,"HP:6001036","    Left ventricular rupture","HP:0001637; HP:0001711",2
+489,"HP:0001685","    Myocardial fibrosis","HP:0001637",2
+490,"HP:0031329","      Interstitial cardiac fibrosis","HP:0001685",3
+491,"HP:0031328","      Perivascular cardiac fibrosis","HP:0001685",3
+492,"HP:0031321","    Myocardial immune cell infiltration","HP:0001637",2
+493,"HP:0031323","      Myocardial eosinophilic infiltration","HP:0031321",3
+494,"HP:0031325","      Myocardial granulomatous infiltrates","HP:0031321",3
+495,"HP:0031322","      Myocardial lymphocytic infiltration","HP:0031321",3
+496,"HP:0031324","      Myocardial multinucleated giant cells","HP:0031321",3
+497,"HP:0031330","      Perivascular myocardial immune cell infiltration","HP:0031321",3
+498,"HP:0001700","    Myocardial necrosis","HP:0001637",2
+499,"HP:0012819","    Myocarditis","HP:0001637",2
+500,"HP:0031318","    Myofiber disarray","HP:0001637",2
+501,"HP:0001697","  Abnormal pericardium morphology","HP:0001627",1
+502,"HP:0011628","    Congenital defect of the pericardium","HP:0001697",2
+503,"HP:0011630","      Complete diaphragmatic absence of pericardium","HP:0011628",3
+504,"HP:0011633","      Complete left sided absence of pericardium","HP:0011628",3
+505,"HP:0011631","      Complete right sided absence of pericardium","HP:0011628",3
+506,"HP:0011635","      Partial diaphragmatic absence of pericardium","HP:0011628",3
+507,"HP:0011634","      Partial left sided absence of pericardium","HP:0011628",3
+508,"HP:0011632","      Partial right sided absence of pericardium","HP:0011628",3
+509,"HP:0011629","      Total absence of the pericardium","HP:0011628",3
+510,"HP:0005132","    Pericardial constriction","HP:0001697",2
+511,"HP:0001698","    Pericardial effusion","HP:0001697",2
+512,"HP:0011852","      Chylopericardium","HP:0001698",3
+513,"HP:0011851","      Hemopericardium","HP:0001698",3
+514,"HP:0011853","      Serous pericardial effusion","HP:0001698",3
+515,"HP:4000005","    Pericardial late gadolinium enhancement","HP:0001697",2
+516,"HP:0005183","    Pericardial lymphangiectasia","HP:0001697",2
+517,"HP:0100004","    Pericardial mesothelioma","HP:0001697",2
+518,"HP:0001701","    Pericarditis","HP:0001697",2
+519,"HP:0002563","      Constrictive pericarditis","HP:0001701",3
+520,"HP:0011534","  Abnormal spatial orientation of the cardiac segments","HP:0001627",1
+521,"HP:0011535","    Abnormal atrial arrangement","HP:0005120; HP:0011534",2
+522,"HP:0011539","      Atrial situs ambiguous","HP:0011535",3
+523,"HP:0011538","      Atrial situs inversus","HP:0011535",3
+524,"HP:0011537","      Left atrial isomerism","HP:0011535",3
+525,"HP:0011536","      Right atrial isomerism","HP:0011535",3
+526,"HP:0011540","    Congenitally corrected transposition of the great arteries","HP:0011534",2
+527,"HP:0011605","      Congenitally corrected transposition of the great arteries with ventricular septal defect","HP:0011540",3
+528,"HP:0011541","    Criss-cross atrioventricular valves","HP:0011534",2
+529,"HP:0011542","      Criss-cross atrioventricular valves with superior-inferior ventricles","HP:0011541",3
+530,"HP:0011544","    L-looping of the right ventricle","HP:0011534",2
+531,"HP:0001696","    Situs inversus totalis","HP:0001651; HP:0011534",2
+532,"HP:0031592","    Situs inversus with levocardia","HP:0011534",2
+533,"HP:0011543","    Superior-inferior ventricles without criss-cross atrioventricular valves","HP:0011534",2
+534,"HP:6000145","  Boot-shaped cardiac silhouette","HP:0001627",1
+535,"HP:6000847","  Cardiac mass","HP:0001627",1
+536,"HP:0001640","  Cardiomegaly","HP:0001627",1
+537,"HP:0045017","  Congenital malformation of the left heart","HP:0001627",1
+538,"HP:0004383","    Hypoplastic left heart","HP:0001961; HP:0045017",2
+539,"HP:0011723","  Congenital malformation of the right heart","HP:0001627",1
+540,"HP:0001719","    Double outlet right ventricle","HP:0001710; HP:0011723",2
+541,"HP:0011651","      Double outlet right ventricle with doubly committed ventricular septal defect and pulmonary stenosis","HP:0001719",3
+542,"HP:0011652","      Double outlet right ventricle with doubly committed ventricular septal defect without pulmonary stenosis","HP:0001719",3
+543,"HP:0011653","      Double outlet right ventricle with non-committed ventricular septal defect and pulmonary stenosis","HP:0001719",3
+544,"HP:0011654","      Double outlet right ventricle with non-committed ventricular septal defect without pulmonary stenosis","HP:0001719",3
+545,"HP:0011655","      Double outlet right ventricle with subaortic ventricular septal defect and pulmonary stenosis","HP:0001719",3
+546,"HP:0011656","      Double outlet right ventricle with subaortic ventricular septal defect without pulmonary stenosis","HP:0001719",3
+547,"HP:0011657","      Double outlet right ventricle with subpulmonary ventricular septal defect and pulmonary stenosis","HP:0001719",3
+548,"HP:0011658","      Double outlet right ventricle with subpulmonary ventricular septal defect without pulmonary stenosis","HP:0001719",3
+549,"HP:0010954","    Hypoplastic right heart","HP:0001961; HP:0011723",2
+550,"HP:0011724","    Uhl's anomaly","HP:0011723",2
+551,"HP:0001961","  Hypoplastic heart","HP:0001627",1
+552,"HP:0004383","    Hypoplastic left heart","HP:0001961; HP:0045017",2
+553,"HP:0010954","    Hypoplastic right heart","HP:0001961; HP:0011723",2
+554,"HP:0100544","  Neoplasm of the heart","HP:0001627",1
+555,"HP:0031351","    Calcified amorphous tumor of the heart","HP:0100544",2
+556,"HP:0010617","    Cardiac fibroma","HP:0100544",2
+557,"HP:0011672","    Cardiac myxoma","HP:0100544",2
+558,"HP:0009729","    Cardiac rhabdomyoma","HP:0100544",2
+559,"HP:0031350","    Cardiac sarcoma","HP:0100544",2
+560,"HP:0011674","    Cardiac teratoma","HP:0100544",2

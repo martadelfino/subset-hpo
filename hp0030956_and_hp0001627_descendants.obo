@@ -1,0 +1,2368 @@
+format-version: 1.2
+data-version: HP:0030956 and HP:0001627 descendants
+
+[Term]
+id: HP:0030956
+name: Abnormality of cardiovascular system electrophysiology
+
+[Term]
+id: HP:0001627
+name: Abnormal heart morphology
+
+[Term]
+id: HP:0001645
+name: Sudden cardiac death
+is_a: HP:0001695 ! Cardiac arrest
+
+[Term]
+id: HP:0001649
+name: Tachycardia
+is_a: HP:0011675 ! Arrhythmia
+
+[Term]
+id: HP:0001657
+name: Prolonged QT interval
+is_a: HP:0031547 ! Abnormal QT interval
+
+[Term]
+id: HP:0001662
+name: Bradycardia
+is_a: HP:0011675 ! Arrhythmia
+
+[Term]
+id: HP:0001663
+name: Ventricular fibrillation
+is_a: HP:0004308 ! Ventricular arrhythmia
+
+[Term]
+id: HP:0001664
+name: Torsade de pointes
+is_a: HP:0004308 ! Ventricular arrhythmia
+
+[Term]
+id: HP:0001678
+name: Atrioventricular block
+is_a: HP:0005150 ! Abnormal atrioventricular conduction
+is_a: HP:0012722 ! Heart block
+
+[Term]
+id: HP:0001688
+name: Sinus bradycardia
+is_a: HP:0001662 ! Bradycardia
+is_a: HP:0011702 ! Abnormal electrophysiology of sinoatrial node origin
+
+[Term]
+id: HP:0001692
+name: Atrial arrhythmia
+is_a: HP:0005115 ! Supraventricular arrhythmia
+
+[Term]
+id: HP:0001695
+name: Cardiac arrest
+is_a: HP:0011675 ! Arrhythmia
+
+[Term]
+id: HP:0001709
+name: Third degree atrioventricular block
+is_a: HP:0001678 ! Atrioventricular block
+
+[Term]
+id: HP:0001716
+name: Wolff-Parkinson-White syndrome
+is_a: HP:0004309 ! Ventricular preexcitation
+
+[Term]
+id: HP:0001962
+name: Palpitations
+is_a: HP:0011675 ! Arrhythmia
+
+[Term]
+id: HP:0003115
+name: Abnormal EKG
+is_a: HP:0030956 ! Abnormality of cardiovascular system electrophysiology
+
+[Term]
+id: HP:0003140
+name: T-wave inversion in the right precordial leads
+is_a: HP:0010872 ! T-wave inversion
+
+[Term]
+id: HP:0004308
+name: Ventricular arrhythmia
+is_a: HP:0011675 ! Arrhythmia
+
+[Term]
+id: HP:0004309
+name: Ventricular preexcitation
+is_a: HP:0004308 ! Ventricular arrhythmia
+
+[Term]
+id: HP:0004749
+name: Atrial flutter
+is_a: HP:0001692 ! Atrial arrhythmia
+
+[Term]
+id: HP:0004751
+name: Paroxysmal ventricular tachycardia
+is_a: HP:0004756 ! Ventricular tachycardia
+
+[Term]
+id: HP:0004752
+name: Congenital atrioventricular dissociation
+is_a: HP:0011709 ! Atrioventricular dissociation
+
+[Term]
+id: HP:0004754
+name: Permanent atrial fibrillation
+is_a: HP:0005110 ! Atrial fibrillation
+
+[Term]
+id: HP:0004755
+name: Supraventricular tachycardia
+is_a: HP:0001649 ! Tachycardia
+is_a: HP:0005115 ! Supraventricular arrhythmia
+
+[Term]
+id: HP:0004756
+name: Ventricular tachycardia
+is_a: HP:0001649 ! Tachycardia
+
+[Term]
+id: HP:0004757
+name: Paroxysmal atrial fibrillation
+is_a: HP:0005110 ! Atrial fibrillation
+
+[Term]
+id: HP:0004758
+name: Effort-induced polymorphic ventricular tachycardia
+is_a: HP:0004756 ! Ventricular tachycardia
+
+[Term]
+id: HP:0004763
+name: Paroxysmal supraventricular tachycardia
+is_a: HP:0004755 ! Supraventricular tachycardia
+
+[Term]
+id: HP:0005110
+name: Atrial fibrillation
+is_a: HP:0001692 ! Atrial arrhythmia
+
+[Term]
+id: HP:0005115
+name: Supraventricular arrhythmia
+is_a: HP:0011675 ! Arrhythmia
+
+[Term]
+id: HP:0005135
+name: Abnormal T-wave
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:0005147
+name: Bidirectional ventricular ectopy
+is_a: HP:0006682 ! Premature ventricular contraction
+
+[Term]
+id: HP:0005150
+name: Abnormal atrioventricular conduction
+is_a: HP:0031546 ! Cardiac conduction abnormality
+
+[Term]
+id: HP:0005155
+name: Ventricular escape rhythm
+is_a: HP:0004308 ! Ventricular arrhythmia
+
+[Term]
+id: HP:0005165
+name: Shortened PR interval
+is_a: HP:0031593 ! Abnormal PR interval
+
+[Term]
+id: HP:0005170
+name: Complete heart block with broad QRS complexes
+is_a: HP:0001709 ! Third degree atrioventricular block
+
+[Term]
+id: HP:0005172
+name: Left posterior fascicular block
+is_a: HP:0011713 ! Left bundle branch block
+
+[Term]
+id: HP:0005178
+name: Complete heart block with narrow QRS complexes
+is_a: HP:0001709 ! Third degree atrioventricular block
+
+[Term]
+id: HP:0005184
+name: Prolonged QTc interval
+is_a: HP:0001657 ! Prolonged QT interval
+
+[Term]
+id: HP:0006671
+name: Paroxysmal atrial tachycardia
+is_a: HP:0004763 ! Paroxysmal supraventricular tachycardia
+
+[Term]
+id: HP:0006677
+name: Prolonged QRS complex
+is_a: HP:0025074 ! Abnormal QRS complex
+
+[Term]
+id: HP:0006681
+name: Absent atrioventricular node
+is_a: HP:0001678 ! Atrioventricular block
+
+[Term]
+id: HP:0006682
+name: Premature ventricular contraction
+is_a: HP:0004308 ! Ventricular arrhythmia
+
+[Term]
+id: HP:0006684
+name: Ventricular preexcitation with multiple accessory pathways
+is_a: HP:0004309 ! Ventricular preexcitation
+
+[Term]
+id: HP:0006688
+name: Paroxysmal tachycardia
+is_a: HP:0001649 ! Tachycardia
+
+[Term]
+id: HP:0006696
+name: Polymorphic and polytopic ventricular extrasystoles
+is_a: HP:0006682 ! Premature ventricular contraction
+
+[Term]
+id: HP:0006699
+name: Premature atrial contractions
+is_a: HP:0005115 ! Supraventricular arrhythmia
+
+[Term]
+id: HP:0010872
+name: T-wave inversion
+is_a: HP:0005135 ! Abnormal T-wave
+
+[Term]
+id: HP:0011675
+name: Arrhythmia
+is_a: HP:0030956 ! Abnormality of cardiovascular system electrophysiology
+
+[Term]
+id: HP:0011687
+name: AV nodal tachycardia
+is_a: HP:0004755 ! Supraventricular tachycardia
+
+[Term]
+id: HP:0011688
+name: Supraventricular tachycardia with an accessory connection mediated pathway
+is_a: HP:0004755 ! Supraventricular tachycardia
+
+[Term]
+id: HP:0011689
+name: Supraventricular tachycardia with a concealed accessory connection
+is_a: HP:0011688 ! Supraventricular tachycardia with an accessory connection mediated pathway
+
+[Term]
+id: HP:0011690
+name: Permanent junctional reciprocating tachycardia
+is_a: HP:0011689 ! Supraventricular tachycardia with a concealed accessory connection
+
+[Term]
+id: HP:0011691
+name: Supraventricular tachycardia with a concealed accessory pathway on the left free wall
+is_a: HP:0011689 ! Supraventricular tachycardia with a concealed accessory connection
+
+[Term]
+id: HP:0011692
+name: Supraventricular tachycardia with a concealed accessory pathway on the right free wall
+is_a: HP:0011689 ! Supraventricular tachycardia with a concealed accessory connection
+
+[Term]
+id: HP:0011693
+name: Supraventricular tachycardia with a concealed accessory pathway on the septum
+is_a: HP:0011689 ! Supraventricular tachycardia with a concealed accessory connection
+
+[Term]
+id: HP:0011694
+name: Supraventricular tachycardia with a manifest accessory pathway
+is_a: HP:0011688 ! Supraventricular tachycardia with an accessory connection mediated pathway
+
+[Term]
+id: HP:0011696
+name: Supraventricular tachycardia with a manifest accessory pathway on the left free wall
+is_a: HP:0011694 ! Supraventricular tachycardia with a manifest accessory pathway
+
+[Term]
+id: HP:0011697
+name: Supraventricular tachycardia with a manifest accessory pathway on the right free wall
+is_a: HP:0011694 ! Supraventricular tachycardia with a manifest accessory pathway
+
+[Term]
+id: HP:0011698
+name: Supraventricular tachycardia with a manifest accessory pathway on the septum
+is_a: HP:0011694 ! Supraventricular tachycardia with a manifest accessory pathway
+
+[Term]
+id: HP:0011699
+name: Atrial reentry tachycardia
+is_a: HP:0001692 ! Atrial arrhythmia
+
+[Term]
+id: HP:0011700
+name: Automatic atrial tachycardia
+is_a: HP:0001692 ! Atrial arrhythmia
+
+[Term]
+id: HP:0011701
+name: Multifocal atrial tachycardia
+is_a: HP:0001692 ! Atrial arrhythmia
+
+[Term]
+id: HP:0011702
+name: Abnormal electrophysiology of sinoatrial node origin
+is_a: HP:0011675 ! Arrhythmia
+
+[Term]
+id: HP:0011703
+name: Sinus tachycardia
+is_a: HP:0011702 ! Abnormal electrophysiology of sinoatrial node origin
+
+[Term]
+id: HP:0011704
+name: Sick sinus syndrome
+is_a: HP:0011702 ! Abnormal electrophysiology of sinoatrial node origin
+is_a: HP:0012722 ! Heart block
+
+[Term]
+id: HP:0011705
+name: First degree atrioventricular block
+is_a: HP:0001678 ! Atrioventricular block
+
+[Term]
+id: HP:0011706
+name: Second degree atrioventricular block
+is_a: HP:0001678 ! Atrioventricular block
+
+[Term]
+id: HP:0011707
+name: Mobitz I atrioventricular block
+is_a: HP:0011706 ! Second degree atrioventricular block
+
+[Term]
+id: HP:0011708
+name: Mobitz II atrioventricular block
+is_a: HP:0011706 ! Second degree atrioventricular block
+
+[Term]
+id: HP:0011709
+name: Atrioventricular dissociation
+is_a: HP:0005150 ! Abnormal atrioventricular conduction
+
+[Term]
+id: HP:0011710
+name: Bundle branch block
+is_a: HP:0012722 ! Heart block
+
+[Term]
+id: HP:0011711
+name: Left anterior fascicular block
+is_a: HP:0011713 ! Left bundle branch block
+
+[Term]
+id: HP:0011712
+name: Right bundle branch block
+is_a: HP:0011710 ! Bundle branch block
+
+[Term]
+id: HP:0011713
+name: Left bundle branch block
+is_a: HP:0011710 ! Bundle branch block
+
+[Term]
+id: HP:0011715
+name: Trifascicular block
+is_a: HP:0011710 ! Bundle branch block
+
+[Term]
+id: HP:0011716
+name: Junctional ectopic tachycardia
+is_a: HP:0011687 ! AV nodal tachycardia
+
+[Term]
+id: HP:0011717
+name: Atrioventricular reentrant tachycardia
+is_a: HP:0011687 ! AV nodal tachycardia
+
+[Term]
+id: HP:0011725
+name: Chaotic multifocal atrial tachycardia
+is_a: HP:0001692 ! Atrial arrhythmia
+
+[Term]
+id: HP:0011841
+name: Ventricular flutter
+is_a: HP:0004756 ! Ventricular tachycardia
+
+[Term]
+id: HP:0012232
+name: Shortened QT interval
+is_a: HP:0031547 ! Abnormal QT interval
+
+[Term]
+id: HP:0012248
+name: Prolonged PR interval
+is_a: HP:0031593 ! Abnormal PR interval
+
+[Term]
+id: HP:0012249
+name: Abnormal ST segment
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:0012250
+name: ST segment depression
+is_a: HP:0012249 ! Abnormal ST segment
+
+[Term]
+id: HP:0012251
+name: ST segment elevation
+is_a: HP:0012249 ! Abnormal ST segment
+
+[Term]
+id: HP:0012266
+name: T-wave alternans
+is_a: HP:0005135 ! Abnormal T-wave
+
+[Term]
+id: HP:0012272
+name: J wave
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:0012722
+name: Heart block
+is_a: HP:0031546 ! Cardiac conduction abnormality
+
+[Term]
+id: HP:0012723
+name: Sinoatrial block
+is_a: HP:0011702 ! Abnormal electrophysiology of sinoatrial node origin
+is_a: HP:0012722 ! Heart block
+
+[Term]
+id: HP:0025070
+name: Abnormal U wave
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:0025071
+name: U wave inversion
+is_a: HP:0025070 ! Abnormal U wave
+
+[Term]
+id: HP:0025072
+name: Prominent U wave
+is_a: HP:0025070 ! Abnormal U wave
+
+[Term]
+id: HP:0025073
+name: Exercise-induced U wave inversion
+is_a: HP:0025071 ! U wave inversion
+
+[Term]
+id: HP:0025074
+name: Abnormal QRS complex
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:0025075
+name: Increased QRS voltage
+is_a: HP:0025076 ! Abnormal QRS voltage
+
+[Term]
+id: HP:0025076
+name: Abnormal QRS voltage
+is_a: HP:0025074 ! Abnormal QRS complex
+
+[Term]
+id: HP:0025077
+name: Decreased QRS voltage
+is_a: HP:0025076 ! Abnormal QRS voltage
+
+[Term]
+id: HP:0025078
+name: Electrical alternans
+is_a: HP:0025076 ! Abnormal QRS voltage
+
+[Term]
+id: HP:0025478
+name: Atrial standstill
+is_a: HP:0005115 ! Supraventricular arrhythmia
+
+[Term]
+id: HP:0031546
+name: Cardiac conduction abnormality
+is_a: HP:0030956 ! Abnormality of cardiovascular system electrophysiology
+
+[Term]
+id: HP:0031547
+name: Abnormal QT interval
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:0031593
+name: Abnormal PR interval
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:0031594
+name: PR segment depression
+is_a: HP:0031596 ! Abnormal PR segment
+
+[Term]
+id: HP:0031595
+name: Abnormal P wave
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:0031596
+name: Abnormal PR segment
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:0031597
+name: PR segment elevation
+is_a: HP:0031596 ! Abnormal PR segment
+
+[Term]
+id: HP:0031598
+name: Notched P wave
+is_a: HP:0031595 ! Abnormal P wave
+
+[Term]
+id: HP:0031599
+name: P mitrale
+is_a: HP:0031595 ! Abnormal P wave
+
+[Term]
+id: HP:0031600
+name: P wave inversion
+is_a: HP:0031595 ! Abnormal P wave
+
+[Term]
+id: HP:0031601
+name: P pulmonale
+is_a: HP:0031595 ! Abnormal P wave
+
+[Term]
+id: HP:0031628
+name: Aborted sudden cardiac death
+is_a: HP:0001695 ! Cardiac arrest
+
+[Term]
+id: HP:0031671
+name: Typical atrial flutter
+is_a: HP:0004749 ! Atrial flutter
+
+[Term]
+id: HP:0031672
+name: Reverse typical atrial flutter
+is_a: HP:0004749 ! Atrial flutter
+
+[Term]
+id: HP:0031673
+name: Orthodromic atrioventricular reentrant tachycardia
+is_a: HP:0011717 ! Atrioventricular reentrant tachycardia
+
+[Term]
+id: HP:0031674
+name: Antidromic atrioventricular reentrant tachycardia
+is_a: HP:0011717 ! Atrioventricular reentrant tachycardia
+
+[Term]
+id: HP:0031675
+name: Fascicular left ventricular tachycardia
+is_a: HP:0004756 ! Ventricular tachycardia
+
+[Term]
+id: HP:0031676
+name: Monomorphic ventricular tachycardia
+is_a: HP:0004756 ! Ventricular tachycardia
+
+[Term]
+id: HP:0031677
+name: Polymorphic ventricular tachycardia
+is_a: HP:0004756 ! Ventricular tachycardia
+
+[Term]
+id: HP:0031860
+name: Abnormal heart rate variability
+is_a: HP:0011675 ! Arrhythmia
+
+[Term]
+id: HP:0031861
+name: Decreased heart rate variability
+is_a: HP:0031860 ! Abnormal heart rate variability
+
+[Term]
+id: HP:0031862
+name: Increased heart rate variability
+is_a: HP:0031860 ! Abnormal heart rate variability
+
+[Term]
+id: HP:0032195
+name: Abnormal S wave
+is_a: HP:0012249 ! Abnormal ST segment
+
+[Term]
+id: HP:0032196
+name: Prominent S wave in lead I
+is_a: HP:0032195 ! Abnormal S wave
+
+[Term]
+id: HP:0032197
+name: Deep S wave in lead V5
+is_a: HP:0032195 ! Abnormal S wave
+
+[Term]
+id: HP:0033122
+name: Absent P wave
+is_a: HP:0031595 ! Abnormal P wave
+
+[Term]
+id: HP:0033566
+name: Abnormal ventricular axis
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:0033567
+name: Right axis deviation
+is_a: HP:0033566 ! Abnormal ventricular axis
+
+[Term]
+id: HP:0033568
+name: Left axis deviation
+is_a: HP:0033566 ! Abnormal ventricular axis
+
+[Term]
+id: HP:0033569
+name: Extreme axis deviation
+is_a: HP:0033566 ! Abnormal ventricular axis
+
+[Term]
+id: HP:0033570
+name: Indeterminate ventricular axis
+is_a: HP:0033566 ! Abnormal ventricular axis
+
+[Term]
+id: HP:0034039
+name: Ventricular couplet
+is_a: HP:0006682 ! Premature ventricular contraction
+
+[Term]
+id: HP:0034040
+name: Bidirectional ventricular tachycardia
+is_a: HP:0004756 ! Ventricular tachycardia
+
+[Term]
+id: HP:0034303
+name: Notched T wave
+is_a: HP:0005135 ! Abnormal T-wave
+
+[Term]
+id: HP:0034304
+name: Epsilon wave
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:0034305
+name: 2:1 atrioventricular block
+is_a: HP:0011706 ! Second degree atrioventricular block
+
+[Term]
+id: HP:0034306
+name: Ventricular bigeminy
+is_a: HP:0004308 ! Ventricular arrhythmia
+
+[Term]
+id: HP:0034308
+name: Prolonged P wave
+is_a: HP:0031595 ! Abnormal P wave
+
+[Term]
+id: HP:0040182
+name: Inappropriate sinus tachycardia
+is_a: HP:0011703 ! Sinus tachycardia
+
+[Term]
+id: HP:6000313
+name: Incomplete right bundle branch block
+is_a: HP:0011710 ! Bundle branch block
+
+[Term]
+id: HP:6000984
+name: Coved type ST segment elevation
+is_a: HP:0012251 ! ST segment elevation
+
+[Term]
+id: HP:6000985
+name: Saddle-back type ST segment elevation
+is_a: HP:0012251 ! ST segment elevation
+
+[Term]
+id: HP:6001086
+name: Irregular RR interval
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:6001087
+name: Irregular P-P interval
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:6001160
+name: Abnormal R wave
+is_a: HP:0003115 ! Abnormal EKG
+
+[Term]
+id: HP:6001161
+name: Poor R-wave progression
+is_a: HP:6001160 ! Abnormal R wave
+
+[Term]
+id: HP:6001162
+name: Prominent V1-V2 R wave
+is_a: HP:6001160 ! Abnormal R wave
+
+[Term]
+id: HP:0001629
+name: Ventricular septal defect
+is_a: HP:0010438 ! Abnormal ventricular septum morphology
+
+[Term]
+id: HP:0001631
+name: Atrial septal defect
+is_a: HP:0005120 ! Abnormal cardiac atrium morphology
+is_a: HP:0011994 ! Abnormal atrial septum morphology
+
+[Term]
+id: HP:0001633
+name: Abnormal mitral valve morphology
+is_a: HP:0006705 ! Abnormal atrioventricular valve morphology
+
+[Term]
+id: HP:0001634
+name: Mitral valve prolapse
+is_a: HP:0001633 ! Abnormal mitral valve morphology
+
+[Term]
+id: HP:0001636
+name: Tetralogy of Fallot
+is_a: HP:0001710 ! Conotruncal defect
+
+[Term]
+id: HP:0001637
+name: Abnormal myocardium morphology
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0001638
+name: Cardiomyopathy
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0001639
+name: Hypertrophic cardiomyopathy
+is_a: HP:0001638 ! Cardiomyopathy
+
+[Term]
+id: HP:0001640
+name: Cardiomegaly
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0001641
+name: Abnormal pulmonary valve morphology
+is_a: HP:0001654 ! Abnormal heart valve morphology
+
+[Term]
+id: HP:0001644
+name: Dilated cardiomyopathy
+is_a: HP:0001638 ! Cardiomyopathy
+
+[Term]
+id: HP:0001646
+name: Abnormal aortic valve morphology
+is_a: HP:0001654 ! Abnormal heart valve morphology
+
+[Term]
+id: HP:0001647
+name: Bicuspid aortic valve
+is_a: HP:0031567 ! Abnormal aortic valve cusp morphology
+
+[Term]
+id: HP:0001648
+name: Cor pulmonale
+is_a: HP:0001707 ! Abnormal right ventricle morphology
+
+[Term]
+id: HP:0001651
+name: Dextrocardia
+is_a: HP:0004307 ! Abnormal anatomic location of the heart
+
+[Term]
+id: HP:0001654
+name: Abnormal heart valve morphology
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0001655
+name: Patent foramen ovale
+is_a: HP:0001631 ! Atrial septal defect
+
+[Term]
+id: HP:0001667
+name: Right ventricular hypertrophy
+is_a: HP:0001707 ! Abnormal right ventricle morphology
+is_a: HP:0001714 ! Ventricular hypertrophy
+
+[Term]
+id: HP:0001669
+name: Transposition of the great arteries
+is_a: HP:0011563 ! Abnormal ventriculoarterial connection
+
+[Term]
+id: HP:0001670
+name: Asymmetric septal hypertrophy
+is_a: HP:0001639 ! Hypertrophic cardiomyopathy
+
+[Term]
+id: HP:0001671
+name: Abnormal cardiac septum morphology
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0001674
+name: Complete atrioventricular canal defect
+is_a: HP:0006695 ! Atrioventricular canal defect
+
+[Term]
+id: HP:0001682
+name: Subvalvular aortic stenosis
+is_a: HP:0011103 ! Abnormal left ventricular outflow tract morphology
+
+[Term]
+id: HP:0001683
+name: Ectopia cordis
+is_a: HP:0004307 ! Abnormal anatomic location of the heart
+
+[Term]
+id: HP:0001684
+name: Secundum atrial septal defect
+is_a: HP:0001631 ! Atrial septal defect
+
+[Term]
+id: HP:0001685
+name: Myocardial fibrosis
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0001691
+name: Muscular subvalvular aortic stenosis
+is_a: HP:0001682 ! Subvalvular aortic stenosis
+
+[Term]
+id: HP:0001696
+name: Situs inversus totalis
+is_a: HP:0001651 ! Dextrocardia
+is_a: HP:0011534 ! Abnormal spatial orientation of the cardiac segments
+
+[Term]
+id: HP:0001697
+name: Abnormal pericardium morphology
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0001698
+name: Pericardial effusion
+is_a: HP:0001697 ! Abnormal pericardium morphology
+
+[Term]
+id: HP:0001700
+name: Myocardial necrosis
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0001701
+name: Pericarditis
+is_a: HP:0001697 ! Abnormal pericardium morphology
+
+[Term]
+id: HP:0001702
+name: Abnormal tricuspid valve morphology
+is_a: HP:0006705 ! Abnormal atrioventricular valve morphology
+
+[Term]
+id: HP:0001704
+name: Tricuspid valve prolapse
+is_a: HP:0001702 ! Abnormal tricuspid valve morphology
+
+[Term]
+id: HP:0001706
+name: Endocardial fibroelastosis
+is_a: HP:0004306 ! Abnormal endocardium morphology
+
+[Term]
+id: HP:0001707
+name: Abnormal right ventricle morphology
+is_a: HP:0001713 ! Abnormal cardiac ventricle morphology
+
+[Term]
+id: HP:0001710
+name: Conotruncal defect
+is_a: HP:0011563 ! Abnormal ventriculoarterial connection
+
+[Term]
+id: HP:0001711
+name: Abnormal left ventricle morphology
+is_a: HP:0001713 ! Abnormal cardiac ventricle morphology
+
+[Term]
+id: HP:0001712
+name: Left ventricular hypertrophy
+is_a: HP:0001711 ! Abnormal left ventricle morphology
+is_a: HP:0001714 ! Ventricular hypertrophy
+
+[Term]
+id: HP:0001713
+name: Abnormal cardiac ventricle morphology
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0001714
+name: Ventricular hypertrophy
+is_a: HP:0001713 ! Abnormal cardiac ventricle morphology
+
+[Term]
+id: HP:0001719
+name: Double outlet right ventricle
+is_a: HP:0001710 ! Conotruncal defect
+is_a: HP:0011723 ! Congenital malformation of the right heart
+
+[Term]
+id: HP:0001723
+name: Restrictive cardiomyopathy
+is_a: HP:0001638 ! Cardiomyopathy
+
+[Term]
+id: HP:0001750
+name: Single ventricle
+is_a: HP:0001713 ! Abnormal cardiac ventricle morphology
+
+[Term]
+id: HP:0001961
+name: Hypoplastic heart
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0002563
+name: Constrictive pericarditis
+is_a: HP:0001701 ! Pericarditis
+
+[Term]
+id: HP:0003338
+name: Focal necrosis of right ventricular muscle cells
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0004306
+name: Abnormal endocardium morphology
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0004307
+name: Abnormal anatomic location of the heart
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0004380
+name: Aortic valve calcification
+is_a: HP:0001646 ! Abnormal aortic valve morphology
+is_a: HP:0005146 ! Cardiac valve calcification
+
+[Term]
+id: HP:0004382
+name: Mitral valve calcification
+is_a: HP:0001633 ! Abnormal mitral valve morphology
+is_a: HP:0005146 ! Cardiac valve calcification
+
+[Term]
+id: HP:0004383
+name: Hypoplastic left heart
+is_a: HP:0001961 ! Hypoplastic heart
+is_a: HP:0045017 ! Congenital malformation of the left heart
+
+[Term]
+id: HP:0004762
+name: Hypoplasia of right ventricle
+is_a: HP:0001707 ! Abnormal right ventricle morphology
+
+[Term]
+id: HP:0004764
+name: Myxomatous mitral valve degeneration
+is_a: HP:0001634 ! Mitral valve prolapse
+
+[Term]
+id: HP:0005120
+name: Abnormal cardiac atrium morphology
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0005129
+name: Congenital hypertrophy of left ventricle
+is_a: HP:0001712 ! Left ventricular hypertrophy
+
+[Term]
+id: HP:0005132
+name: Pericardial constriction
+is_a: HP:0001697 ! Abnormal pericardium morphology
+
+[Term]
+id: HP:0005133
+name: Right ventricular dilatation
+is_a: HP:0001707 ! Abnormal right ventricle morphology
+
+[Term]
+id: HP:0005134
+name: Absence of the pulmonary valve
+is_a: HP:0001641 ! Abnormal pulmonary valve morphology
+
+[Term]
+id: HP:0005136
+name: Mitral annular calcification
+is_a: HP:0004382 ! Mitral valve calcification
+
+[Term]
+id: HP:0005144
+name: Ventricular septal hypertrophy
+is_a: HP:0010438 ! Abnormal ventricular septum morphology
+
+[Term]
+id: HP:0005146
+name: Cardiac valve calcification
+is_a: HP:0001654 ! Abnormal heart valve morphology
+
+[Term]
+id: HP:0005148
+name: Pulmonary valve defects
+is_a: HP:0001641 ! Abnormal pulmonary valve morphology
+
+[Term]
+id: HP:0005152
+name: Histiocytoid cardiomyopathy
+is_a: HP:0001638 ! Cardiomyopathy
+
+[Term]
+id: HP:0005156
+name: Hypoplastic left atrium
+is_a: HP:0025579 ! Abnormal left atrium morphology
+
+[Term]
+id: HP:0005157
+name: Concentric hypertrophic cardiomyopathy
+is_a: HP:0001639 ! Hypertrophic cardiomyopathy
+
+[Term]
+id: HP:0005164
+name: Dysplastic pulmonary valve
+is_a: HP:0001641 ! Abnormal pulmonary valve morphology
+
+[Term]
+id: HP:0005174
+name: Membranous subvalvular aortic stenosis
+is_a: HP:0001682 ! Subvalvular aortic stenosis
+
+[Term]
+id: HP:0005176
+name: Dysplastic aortic valve
+is_a: HP:0001646 ! Abnormal aortic valve morphology
+
+[Term]
+id: HP:0005182
+name: Bicuspid pulmonary valve
+is_a: HP:0031566 ! Abnormal pulmonary valve cusp morphology
+
+[Term]
+id: HP:0005183
+name: Pericardial lymphangiectasia
+is_a: HP:0001697 ! Abnormal pericardium morphology
+
+[Term]
+id: HP:0006685
+name: Endocardial fibrosis
+is_a: HP:0004306 ! Abnormal endocardium morphology
+
+[Term]
+id: HP:0006689
+name: Bacterial endocarditis
+is_a: HP:0100584 ! Endocarditis
+
+[Term]
+id: HP:0006690
+name: Myocardial calcification
+is_a: HP:0001713 ! Abnormal cardiac ventricle morphology
+
+[Term]
+id: HP:0006691
+name: Pulmonic valve myxoma
+is_a: HP:0001641 ! Abnormal pulmonary valve morphology
+
+[Term]
+id: HP:0006692
+name: Short chordae tendineae of the tricuspid valve
+is_a: HP:0031442 ! Abnormal tricuspid chordae tendinae morphology
+
+[Term]
+id: HP:0006693
+name: Myocardial steatosis
+is_a: HP:0001713 ! Abnormal cardiac ventricle morphology
+
+[Term]
+id: HP:0006694
+name: Early progressive calcific cardiac valvular disease
+is_a: HP:0005146 ! Cardiac valve calcification
+
+[Term]
+id: HP:0006695
+name: Atrioventricular canal defect
+is_a: HP:0001671 ! Abnormal cardiac septum morphology
+
+[Term]
+id: HP:0006698
+name: Dilatation of the ventricular cavity
+is_a: HP:0001713 ! Abnormal cardiac ventricle morphology
+
+[Term]
+id: HP:0006705
+name: Abnormal atrioventricular valve morphology
+is_a: HP:0001654 ! Abnormal heart valve morphology
+
+[Term]
+id: HP:0009729
+name: Cardiac rhabdomyoma
+is_a: HP:0100544 ! Neoplasm of the heart
+
+[Term]
+id: HP:0010316
+name: Ebstein anomaly of the tricuspid valve
+is_a: HP:0001702 ! Abnormal tricuspid valve morphology
+
+[Term]
+id: HP:0010438
+name: Abnormal ventricular septum morphology
+is_a: HP:0001671 ! Abnormal cardiac septum morphology
+is_a: HP:0001713 ! Abnormal cardiac ventricle morphology
+
+[Term]
+id: HP:0010445
+name: Primum atrial septal defect
+is_a: HP:0001631 ! Atrial septal defect
+is_a: HP:0006695 ! Atrioventricular canal defect
+
+[Term]
+id: HP:0010617
+name: Cardiac fibroma
+is_a: HP:0100544 ! Neoplasm of the heart
+
+[Term]
+id: HP:0010774
+name: Cor triatriatum
+is_a: HP:0005120 ! Abnormal cardiac atrium morphology
+
+[Term]
+id: HP:0010882
+name: Pulmonary valve atresia
+is_a: HP:0001641 ! Abnormal pulmonary valve morphology
+
+[Term]
+id: HP:0010883
+name: Aortic valve atresia
+is_a: HP:0001646 ! Abnormal aortic valve morphology
+
+[Term]
+id: HP:0010954
+name: Hypoplastic right heart
+is_a: HP:0001961 ! Hypoplastic heart
+is_a: HP:0011723 ! Congenital malformation of the right heart
+
+[Term]
+id: HP:0011103
+name: Abnormal left ventricular outflow tract morphology
+is_a: HP:0001711 ! Abnormal left ventricle morphology
+
+[Term]
+id: HP:0011534
+name: Abnormal spatial orientation of the cardiac segments
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0011535
+name: Abnormal atrial arrangement
+is_a: HP:0005120 ! Abnormal cardiac atrium morphology
+is_a: HP:0011534 ! Abnormal spatial orientation of the cardiac segments
+
+[Term]
+id: HP:0011536
+name: Right atrial isomerism
+is_a: HP:0011535 ! Abnormal atrial arrangement
+
+[Term]
+id: HP:0011537
+name: Left atrial isomerism
+is_a: HP:0011535 ! Abnormal atrial arrangement
+
+[Term]
+id: HP:0011538
+name: Atrial situs inversus
+is_a: HP:0011535 ! Abnormal atrial arrangement
+
+[Term]
+id: HP:0011539
+name: Atrial situs ambiguous
+is_a: HP:0011535 ! Abnormal atrial arrangement
+
+[Term]
+id: HP:0011540
+name: Congenitally corrected transposition of the great arteries
+is_a: HP:0011534 ! Abnormal spatial orientation of the cardiac segments
+
+[Term]
+id: HP:0011541
+name: Criss-cross atrioventricular valves
+is_a: HP:0011534 ! Abnormal spatial orientation of the cardiac segments
+
+[Term]
+id: HP:0011542
+name: Criss-cross atrioventricular valves with superior-inferior ventricles
+is_a: HP:0011541 ! Criss-cross atrioventricular valves
+
+[Term]
+id: HP:0011543
+name: Superior-inferior ventricles without criss-cross atrioventricular valves
+is_a: HP:0011534 ! Abnormal spatial orientation of the cardiac segments
+
+[Term]
+id: HP:0011544
+name: L-looping of the right ventricle
+is_a: HP:0011534 ! Abnormal spatial orientation of the cardiac segments
+
+[Term]
+id: HP:0011545
+name: Abnormal connection of the cardiac segments
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0011546
+name: Abnormal atrioventricular connection
+is_a: HP:0011545 ! Abnormal connection of the cardiac segments
+
+[Term]
+id: HP:0011547
+name: Absent left sided atrioventricular connection
+is_a: HP:0011546 ! Abnormal atrioventricular connection
+
+[Term]
+id: HP:0011548
+name: Absent right sided atrioventricular connection
+is_a: HP:0011546 ! Abnormal atrioventricular connection
+
+[Term]
+id: HP:0011549
+name: Univentricular heart with absent left sided atrioventricular connection
+is_a: HP:0011547 ! Absent left sided atrioventricular connection
+
+[Term]
+id: HP:0011550
+name: Biventricular heart with straddling right sided atrioventricular valve and absent left sided atrioventricular connection
+is_a: HP:0011547 ! Absent left sided atrioventricular connection
+
+[Term]
+id: HP:0011551
+name: Right sided atrium to left ventricle and absent left sided atrioventricular connection
+is_a: HP:0011547 ! Absent left sided atrioventricular connection
+
+[Term]
+id: HP:0011552
+name: Ambiguous atrioventricular connection
+is_a: HP:0011546 ! Abnormal atrioventricular connection
+
+[Term]
+id: HP:0011553
+name: Discordant atrioventricular connection
+is_a: HP:0011546 ! Abnormal atrioventricular connection
+
+[Term]
+id: HP:0011554
+name: Double inlet atrioventricular connection
+is_a: HP:0011546 ! Abnormal atrioventricular connection
+
+[Term]
+id: HP:0011555
+name: Double inlet left ventricle
+is_a: HP:0001750 ! Single ventricle
+is_a: HP:0011554 ! Double inlet atrioventricular connection
+
+[Term]
+id: HP:0011556
+name: Double inlet right ventricle
+is_a: HP:0001750 ! Single ventricle
+is_a: HP:0011554 ! Double inlet atrioventricular connection
+
+[Term]
+id: HP:0011557
+name: Double inlet to single ventricle of indeterminate morphology
+is_a: HP:0001750 ! Single ventricle
+is_a: HP:0011554 ! Double inlet atrioventricular connection
+
+[Term]
+id: HP:0011558
+name: Double inlet to single ventricle with common atrioventricular orifice
+is_a: HP:0011557 ! Double inlet to single ventricle of indeterminate morphology
+
+[Term]
+id: HP:0011559
+name: Double inlet to single ventricle with two atrioventricular valves
+is_a: HP:0011557 ! Double inlet to single ventricle of indeterminate morphology
+
+[Term]
+id: HP:0011560
+name: Mitral atresia
+is_a: HP:0001633 ! Abnormal mitral valve morphology
+is_a: HP:0011546 ! Abnormal atrioventricular connection
+
+[Term]
+id: HP:0011561
+name: Overriding atrioventricular valve
+is_a: HP:0011546 ! Abnormal atrioventricular connection
+
+[Term]
+id: HP:0011562
+name: Straddling atrioventricular valve
+is_a: HP:0011546 ! Abnormal atrioventricular connection
+
+[Term]
+id: HP:0011563
+name: Abnormal ventriculoarterial connection
+is_a: HP:0011545 ! Abnormal connection of the cardiac segments
+
+[Term]
+id: HP:0011564
+name: Mitral valve arcade
+is_a: HP:0001633 ! Abnormal mitral valve morphology
+
+[Term]
+id: HP:0011565
+name: Common atrium
+is_a: HP:0005120 ! Abnormal cardiac atrium morphology
+
+[Term]
+id: HP:0011566
+name: Cor triatriatum dexter
+is_a: HP:0010774 ! Cor triatriatum
+
+[Term]
+id: HP:0011567
+name: Sinus venosus atrial septal defect
+is_a: HP:0001631 ! Atrial septal defect
+
+[Term]
+id: HP:0011568
+name: Double orifice mitral valve
+is_a: HP:0001633 ! Abnormal mitral valve morphology
+
+[Term]
+id: HP:0011569
+name: Cleft anterior mitral valve leaflet
+is_a: HP:0031480 ! Abnormal mitral valve leaflet morphology
+
+[Term]
+id: HP:0011571
+name: Parachute mitral valve
+is_a: HP:0025523 ! Abnormal morphology of the chordae tendinae of the mitral valve
+
+[Term]
+id: HP:0011572
+name: Supramitral ring
+is_a: HP:0001633 ! Abnormal mitral valve morphology
+
+[Term]
+id: HP:0011573
+name: Hypoplastic tricuspid valve
+is_a: HP:0001702 ! Abnormal tricuspid valve morphology
+
+[Term]
+id: HP:0011574
+name: Imperforate atrioventricular valve
+is_a: HP:0006705 ! Abnormal atrioventricular valve morphology
+
+[Term]
+id: HP:0011575
+name: Imperforate tricuspid valve
+is_a: HP:0001702 ! Abnormal tricuspid valve morphology
+is_a: HP:0011574 ! Imperforate atrioventricular valve
+
+[Term]
+id: HP:0011576
+name: Intermediate atrioventricular canal defect
+is_a: HP:0006695 ! Atrioventricular canal defect
+
+[Term]
+id: HP:0011577
+name: Partial atrioventricular canal defect
+is_a: HP:0006695 ! Atrioventricular canal defect
+
+[Term]
+id: HP:0011578
+name: Transitional atrioventricular canal defect
+is_a: HP:0006695 ! Atrioventricular canal defect
+
+[Term]
+id: HP:0011579
+name: Unbalanced atrioventricular canal defect
+is_a: HP:0006695 ! Atrioventricular canal defect
+
+[Term]
+id: HP:0011580
+name: Short chordae tendineae of the mitral valve
+is_a: HP:0025523 ! Abnormal morphology of the chordae tendinae of the mitral valve
+
+[Term]
+id: HP:0011581
+name: Double outlet left ventricle
+is_a: HP:0001711 ! Abnormal left ventricle morphology
+
+[Term]
+id: HP:0011582
+name: Abdominal ectopia cordis
+is_a: HP:0001683 ! Ectopia cordis
+
+[Term]
+id: HP:0011583
+name: Cervical ectopia cordis
+is_a: HP:0001683 ! Ectopia cordis
+
+[Term]
+id: HP:0011584
+name: Thoracocervical ectopia cordis
+is_a: HP:0001683 ! Ectopia cordis
+
+[Term]
+id: HP:0011585
+name: Thoracic ectopia cordis
+is_a: HP:0001683 ! Ectopia cordis
+
+[Term]
+id: HP:0011586
+name: Thoracoabdominal ectopia cordis
+is_a: HP:0001683 ! Ectopia cordis
+
+[Term]
+id: HP:0011599
+name: Mesocardia
+is_a: HP:0004307 ! Abnormal anatomic location of the heart
+
+[Term]
+id: HP:0011600
+name: Abnormal direction of ventricular apex
+is_a: HP:0004307 ! Abnormal anatomic location of the heart
+
+[Term]
+id: HP:0011601
+name: Rightward direction of ventricular apex
+is_a: HP:0011600 ! Abnormal direction of ventricular apex
+
+[Term]
+id: HP:0011602
+name: Midline direction of ventricular apex
+is_a: HP:0011600 ! Abnormal direction of ventricular apex
+
+[Term]
+id: HP:0011605
+name: Congenitally corrected transposition of the great arteries with ventricular septal defect
+is_a: HP:0011540 ! Congenitally corrected transposition of the great arteries
+
+[Term]
+id: HP:0011621
+name: Gerbode ventricular septal defect
+is_a: HP:0001629 ! Ventricular septal defect
+
+[Term]
+id: HP:0011622
+name: Inlet ventricular septal defect
+is_a: HP:0001629 ! Ventricular septal defect
+
+[Term]
+id: HP:0011623
+name: Muscular ventricular septal defect
+is_a: HP:0001629 ! Ventricular septal defect
+
+[Term]
+id: HP:0011624
+name: Apical muscular ventricular septal defect
+is_a: HP:0011623 ! Muscular ventricular septal defect
+
+[Term]
+id: HP:0011625
+name: Multiple muscular ventricular septal defects
+is_a: HP:0011623 ! Muscular ventricular septal defect
+
+[Term]
+id: HP:0011628
+name: Congenital defect of the pericardium
+is_a: HP:0001697 ! Abnormal pericardium morphology
+
+[Term]
+id: HP:0011629
+name: Total absence of the pericardium
+is_a: HP:0011628 ! Congenital defect of the pericardium
+
+[Term]
+id: HP:0011630
+name: Complete diaphragmatic absence of pericardium
+is_a: HP:0011628 ! Congenital defect of the pericardium
+
+[Term]
+id: HP:0011631
+name: Complete right sided absence of pericardium
+is_a: HP:0011628 ! Congenital defect of the pericardium
+
+[Term]
+id: HP:0011632
+name: Partial right sided absence of pericardium
+is_a: HP:0011628 ! Congenital defect of the pericardium
+
+[Term]
+id: HP:0011633
+name: Complete left sided absence of pericardium
+is_a: HP:0011628 ! Congenital defect of the pericardium
+
+[Term]
+id: HP:0011634
+name: Partial left sided absence of pericardium
+is_a: HP:0011628 ! Congenital defect of the pericardium
+
+[Term]
+id: HP:0011635
+name: Partial diaphragmatic absence of pericardium
+is_a: HP:0011628 ! Congenital defect of the pericardium
+
+[Term]
+id: HP:0011642
+name: Abnormal coronary sinus morphology
+is_a: HP:0005120 ! Abnormal cardiac atrium morphology
+
+[Term]
+id: HP:0011643
+name: Coronary sinus atrial septal defect
+is_a: HP:0011642 ! Abnormal coronary sinus morphology
+
+[Term]
+id: HP:0011644
+name: Coronary sinus diverticulum
+is_a: HP:0011642 ! Abnormal coronary sinus morphology
+
+[Term]
+id: HP:0011651
+name: Double outlet right ventricle with doubly committed ventricular septal defect and pulmonary stenosis
+is_a: HP:0001719 ! Double outlet right ventricle
+
+[Term]
+id: HP:0011652
+name: Double outlet right ventricle with doubly committed ventricular septal defect without pulmonary stenosis
+is_a: HP:0001719 ! Double outlet right ventricle
+
+[Term]
+id: HP:0011653
+name: Double outlet right ventricle with non-committed ventricular septal defect and pulmonary stenosis
+is_a: HP:0001719 ! Double outlet right ventricle
+
+[Term]
+id: HP:0011654
+name: Double outlet right ventricle with non-committed ventricular septal defect without pulmonary stenosis
+is_a: HP:0001719 ! Double outlet right ventricle
+
+[Term]
+id: HP:0011655
+name: Double outlet right ventricle with subaortic ventricular septal defect and pulmonary stenosis
+is_a: HP:0001719 ! Double outlet right ventricle
+
+[Term]
+id: HP:0011656
+name: Double outlet right ventricle with subaortic ventricular septal defect without pulmonary stenosis
+is_a: HP:0001719 ! Double outlet right ventricle
+
+[Term]
+id: HP:0011657
+name: Double outlet right ventricle with subpulmonary ventricular septal defect and pulmonary stenosis
+is_a: HP:0001719 ! Double outlet right ventricle
+
+[Term]
+id: HP:0011658
+name: Double outlet right ventricle with subpulmonary ventricular septal defect without pulmonary stenosis
+is_a: HP:0001719 ! Double outlet right ventricle
+
+[Term]
+id: HP:0011659
+name: Tetralogy of Fallot with absent pulmonary valve
+is_a: HP:0001636 ! Tetralogy of Fallot
+is_a: HP:0005134 ! Absence of the pulmonary valve
+
+[Term]
+id: HP:0011662
+name: Tricuspid atresia
+is_a: HP:0001702 ! Abnormal tricuspid valve morphology
+
+[Term]
+id: HP:0011663
+name: Right ventricular cardiomyopathy
+is_a: HP:0001638 ! Cardiomyopathy
+is_a: HP:0001707 ! Abnormal right ventricle morphology
+
+[Term]
+id: HP:0011664
+name: Left ventricular noncompaction cardiomyopathy
+is_a: HP:0012817 ! Noncompaction cardiomyopathy
+
+[Term]
+id: HP:0011665
+name: Takotsubo cardiomyopathy
+is_a: HP:0001638 ! Cardiomyopathy
+
+[Term]
+id: HP:0011672
+name: Cardiac myxoma
+is_a: HP:0100544 ! Neoplasm of the heart
+
+[Term]
+id: HP:0011674
+name: Cardiac teratoma
+is_a: HP:0100544 ! Neoplasm of the heart
+
+[Term]
+id: HP:0011676
+name: Tetralogy of Fallot with absent subarterial conus
+is_a: HP:0001636 ! Tetralogy of Fallot
+
+[Term]
+id: HP:0011677
+name: Tetralogy of Fallot with atrioventricular canal defect
+is_a: HP:0001636 ! Tetralogy of Fallot
+
+[Term]
+id: HP:0011678
+name: Tetralogy of Fallot with pulmonary atresia and major aortopulmonary collateral arteries
+is_a: HP:0012516 ! Tetralogy of Fallot with pulmonary atresia
+
+[Term]
+id: HP:0011679
+name: Tetralogy of Fallot with pulmonary stenosis
+is_a: HP:0001636 ! Tetralogy of Fallot
+
+[Term]
+id: HP:0011680
+name: Single ventricle of indeterminate morphology
+is_a: HP:0001750 ! Single ventricle
+
+[Term]
+id: HP:0011681
+name: Subarterial ventricular septal defect
+is_a: HP:0001629 ! Ventricular septal defect
+
+[Term]
+id: HP:0011682
+name: Perimembranous ventricular septal defect
+is_a: HP:0001629 ! Ventricular septal defect
+
+[Term]
+id: HP:0011683
+name: Restrictive ventricular septal defect
+is_a: HP:0001629 ! Ventricular septal defect
+
+[Term]
+id: HP:0011684
+name: Non-restrictive ventricular septal defect
+is_a: HP:0001629 ! Ventricular septal defect
+
+[Term]
+id: HP:0011714
+name: Libman-Sacks lesions
+is_a: HP:0100584 ! Endocarditis
+
+[Term]
+id: HP:0011723
+name: Congenital malformation of the right heart
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0011724
+name: Uhl's anomaly
+is_a: HP:0011723 ! Congenital malformation of the right heart
+
+[Term]
+id: HP:0011851
+name: Hemopericardium
+is_a: HP:0001698 ! Pericardial effusion
+
+[Term]
+id: HP:0011852
+name: Chylopericardium
+is_a: HP:0001698 ! Pericardial effusion
+
+[Term]
+id: HP:0011853
+name: Serous pericardial effusion
+is_a: HP:0001698 ! Pericardial effusion
+
+[Term]
+id: HP:0011994
+name: Abnormal atrial septum morphology
+is_a: HP:0001671 ! Abnormal cardiac septum morphology
+
+[Term]
+id: HP:0011995
+name: Atrial septal dilatation
+is_a: HP:0011994 ! Abnormal atrial septum morphology
+
+[Term]
+id: HP:0012516
+name: Tetralogy of Fallot with pulmonary atresia
+is_a: HP:0001636 ! Tetralogy of Fallot
+
+[Term]
+id: HP:0012561
+name: Unicuspid aortic valve
+is_a: HP:0031567 ! Abnormal aortic valve cusp morphology
+
+[Term]
+id: HP:0012816
+name: Right ventricular noncompaction cardiomyopathy
+is_a: HP:0012817 ! Noncompaction cardiomyopathy
+
+[Term]
+id: HP:0012817
+name: Noncompaction cardiomyopathy
+is_a: HP:0001638 ! Cardiomyopathy
+
+[Term]
+id: HP:0012818
+name: Biventricular noncompaction cardiomyopathy
+is_a: HP:0012817 ! Noncompaction cardiomyopathy
+
+[Term]
+id: HP:0012819
+name: Myocarditis
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0025445
+name: Abnormal papillary muscle morphology
+is_a: HP:0001711 ! Abnormal left ventricle morphology
+
+[Term]
+id: HP:0025446
+name: Anomalous insertion of papillary muscle directly into anterior mitral leaflet
+is_a: HP:0025445 ! Abnormal papillary muscle morphology
+
+[Term]
+id: HP:0025447
+name: Displacement of the papillary muscles
+is_a: HP:0025445 ! Abnormal papillary muscle morphology
+
+[Term]
+id: HP:0025448
+name: Anterior displacement of the papillary muscles
+is_a: HP:0025447 ! Displacement of the papillary muscles
+
+[Term]
+id: HP:0025449
+name: Apically displaced anterolateral papillary muscle
+is_a: HP:0025447 ! Displacement of the papillary muscles
+
+[Term]
+id: HP:0025522
+name: Elongated chordae tendinae of the mitral valve
+is_a: HP:0025523 ! Abnormal morphology of the chordae tendinae of the mitral valve
+
+[Term]
+id: HP:0025523
+name: Abnormal morphology of the chordae tendinae of the mitral valve
+is_a: HP:0001633 ! Abnormal mitral valve morphology
+
+[Term]
+id: HP:0025578
+name: Aortic valve prolapse
+is_a: HP:0001646 ! Abnormal aortic valve morphology
+
+[Term]
+id: HP:0025579
+name: Abnormal left atrium morphology
+is_a: HP:0005120 ! Abnormal cardiac atrium morphology
+
+[Term]
+id: HP:0025580
+name: Abnormal right atrium morphology
+is_a: HP:0005120 ! Abnormal cardiac atrium morphology
+
+[Term]
+id: HP:0030681
+name: Abnormal morphology of myocardial trabeculae
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0030682
+name: Left ventricular noncompaction
+is_a: HP:0031192 ! Abnormal morphology of left ventricular trabeculae
+
+[Term]
+id: HP:0030718
+name: Right atrial enlargement
+is_a: HP:0025580 ! Abnormal right atrium morphology
+
+[Term]
+id: HP:0030719
+name: Unguarded tricuspid valve
+is_a: HP:0011662 ! Tricuspid atresia
+
+[Term]
+id: HP:0030732
+name: Dysplastic tricuspid valve
+is_a: HP:0001702 ! Abnormal tricuspid valve morphology
+
+[Term]
+id: HP:0030740
+name: Anomalous muscle bundle of the right ventricle
+is_a: HP:0001707 ! Abnormal right ventricle morphology
+
+[Term]
+id: HP:0030843
+name: Cardiac amyloidosis
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0030957
+name: Ventricular septal aneurysm
+is_a: HP:0010438 ! Abnormal ventricular septum morphology
+
+[Term]
+id: HP:0030958
+name: Membranous ventricular septal aneurysm
+is_a: HP:0030957 ! Ventricular septal aneurysm
+
+[Term]
+id: HP:0030959
+name: Muscular ventricular septal aneurysm
+is_a: HP:0030957 ! Ventricular septal aneurysm
+
+[Term]
+id: HP:0031017
+name: Swiss cheese atrial septal defect
+is_a: HP:0001631 ! Atrial septal defect
+
+[Term]
+id: HP:0031117
+name: Purely bicuspid aortic valve
+is_a: HP:0001647 ! Bicuspid aortic valve
+
+[Term]
+id: HP:0031118
+name: Single raphe bicuspid aortic valve
+is_a: HP:0001647 ! Bicuspid aortic valve
+
+[Term]
+id: HP:0031119
+name: Bicuspid aortic valve with right-left cusp fusion
+is_a: HP:0031118 ! Single raphe bicuspid aortic valve
+
+[Term]
+id: HP:0031120
+name: Bicuspid aortic valve with right-noncoronary cusp fusion
+is_a: HP:0031118 ! Single raphe bicuspid aortic valve
+
+[Term]
+id: HP:0031121
+name: Bicuspid aortic valve with left-noncoronary cusp fusion
+is_a: HP:0031118 ! Single raphe bicuspid aortic valve
+
+[Term]
+id: HP:0031122
+name: Two-raphe bicuspid aortic valve
+is_a: HP:0001647 ! Bicuspid aortic valve
+
+[Term]
+id: HP:0031134
+name: Cor triatriatum sinister
+is_a: HP:0010774 ! Cor triatriatum
+
+[Term]
+id: HP:0031192
+name: Abnormal morphology of left ventricular trabeculae
+is_a: HP:0030681 ! Abnormal morphology of myocardial trabeculae
+
+[Term]
+id: HP:0031193
+name: Abnormal morphology of right ventricular trabeculae
+is_a: HP:0030681 ! Abnormal morphology of myocardial trabeculae
+
+[Term]
+id: HP:0031194
+name: Increased density of left ventricular trabeculae
+is_a: HP:0031192 ! Abnormal morphology of left ventricular trabeculae
+
+[Term]
+id: HP:0031195
+name: Apical hypertrabeculation of the left ventricle
+is_a: HP:0031192 ! Abnormal morphology of left ventricular trabeculae
+
+[Term]
+id: HP:0031196
+name: Thin myocardium compact layer
+is_a: HP:0031192 ! Abnormal morphology of left ventricular trabeculae
+
+[Term]
+id: HP:0031294
+name: Hypoplastic right atrium
+is_a: HP:0025580 ! Abnormal right atrium morphology
+
+[Term]
+id: HP:0031295
+name: Left atrial enlargement
+is_a: HP:0025579 ! Abnormal left atrium morphology
+
+[Term]
+id: HP:0031296
+name: Atrial septal hypertrophy
+is_a: HP:0005120 ! Abnormal cardiac atrium morphology
+
+[Term]
+id: HP:0031297
+name: Unroofed coronary sinus
+is_a: HP:0001631 ! Atrial septal defect
+is_a: HP:0011642 ! Abnormal coronary sinus morphology
+
+[Term]
+id: HP:0031298
+name: Coronary sinus enlargement
+is_a: HP:0011642 ! Abnormal coronary sinus morphology
+
+[Term]
+id: HP:0031316
+name: Abnormal ventricular myocardium morphology
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0031317
+name: Fatty replacement of ventricular myocardial tissue
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0031318
+name: Myofiber disarray
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0031319
+name: Cardiomyocyte hypertrophy
+is_a: HP:0031331 ! Abnormal cardiomyocyte morphology
+
+[Term]
+id: HP:0031320
+name: Cardiomyocyte mitochondrial proliferation
+is_a: HP:0031331 ! Abnormal cardiomyocyte morphology
+
+[Term]
+id: HP:0031321
+name: Myocardial immune cell infiltration
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0031322
+name: Myocardial lymphocytic infiltration
+is_a: HP:0031321 ! Myocardial immune cell infiltration
+
+[Term]
+id: HP:0031323
+name: Myocardial eosinophilic infiltration
+is_a: HP:0031321 ! Myocardial immune cell infiltration
+
+[Term]
+id: HP:0031324
+name: Myocardial multinucleated giant cells
+is_a: HP:0031321 ! Myocardial immune cell infiltration
+
+[Term]
+id: HP:0031325
+name: Myocardial granulomatous infiltrates
+is_a: HP:0031321 ! Myocardial immune cell infiltration
+
+[Term]
+id: HP:0031326
+name: Monoclonal light chain cardiac amyloidosis
+is_a: HP:0030843 ! Cardiac amyloidosis
+
+[Term]
+id: HP:0031327
+name: Transthyretin cardiac amyloidosis
+is_a: HP:0030843 ! Cardiac amyloidosis
+
+[Term]
+id: HP:0031328
+name: Perivascular cardiac fibrosis
+is_a: HP:0001685 ! Myocardial fibrosis
+
+[Term]
+id: HP:0031329
+name: Interstitial cardiac fibrosis
+is_a: HP:0001685 ! Myocardial fibrosis
+
+[Term]
+id: HP:0031330
+name: Perivascular myocardial immune cell infiltration
+is_a: HP:0031321 ! Myocardial immune cell infiltration
+
+[Term]
+id: HP:0031331
+name: Abnormal cardiomyocyte morphology
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0031332
+name: Cardiomyocyte degeneration
+is_a: HP:0031331 ! Abnormal cardiomyocyte morphology
+
+[Term]
+id: HP:0031333
+name: Myocardial sarcomeric disarray
+is_a: HP:0031331 ! Abnormal cardiomyocyte morphology
+
+[Term]
+id: HP:0031334
+name: Cardiomyocyte inclusion bodies
+is_a: HP:0031331 ! Abnormal cardiomyocyte morphology
+
+[Term]
+id: HP:0031335
+name: Abnormal cardiomyocyte mitochondrial morphology
+is_a: HP:0031331 ! Abnormal cardiomyocyte morphology
+
+[Term]
+id: HP:0031336
+name: Intranuclear cardiomyocyte mitochondria
+is_a: HP:0031335 ! Abnormal cardiomyocyte mitochondrial morphology
+
+[Term]
+id: HP:0031337
+name: Abnormal cardiomyocyte connexin43 staining
+is_a: HP:0031331 ! Abnormal cardiomyocyte morphology
+
+[Term]
+id: HP:0031338
+name: Abnormal cardiomyocyte plakoglobin staining
+is_a: HP:0031331 ! Abnormal cardiomyocyte morphology
+
+[Term]
+id: HP:0031339
+name: Abnormal cardiomyocyte dystrophin staining
+is_a: HP:0031331 ! Abnormal cardiomyocyte morphology
+
+[Term]
+id: HP:0031348
+name: Dextrotransposition of the great arteries
+is_a: HP:0001669 ! Transposition of the great arteries
+
+[Term]
+id: HP:0031349
+name: Levotransposition of the great arteries
+is_a: HP:0001669 ! Transposition of the great arteries
+
+[Term]
+id: HP:0031350
+name: Cardiac sarcoma
+is_a: HP:0100544 ! Neoplasm of the heart
+
+[Term]
+id: HP:0031351
+name: Calcified amorphous tumor of the heart
+is_a: HP:0100544 ! Neoplasm of the heart
+
+[Term]
+id: HP:0031441
+name: Abnormal tricuspid valve annulus morphology
+is_a: HP:0001702 ! Abnormal tricuspid valve morphology
+
+[Term]
+id: HP:0031442
+name: Abnormal tricuspid chordae tendinae morphology
+is_a: HP:0001702 ! Abnormal tricuspid valve morphology
+
+[Term]
+id: HP:0031443
+name: Abnormal tricuspid valve leaflet morphology
+is_a: HP:0001702 ! Abnormal tricuspid valve morphology
+
+[Term]
+id: HP:0031444
+name: Dilatation of the tricuspid annulus
+is_a: HP:0031441 ! Abnormal tricuspid valve annulus morphology
+
+[Term]
+id: HP:0031478
+name: Abnormal mitral valve annulus morphology
+is_a: HP:0001633 ! Abnormal mitral valve morphology
+
+[Term]
+id: HP:0031479
+name: Dilatation of the mitral annulus
+is_a: HP:0001633 ! Abnormal mitral valve morphology
+
+[Term]
+id: HP:0031480
+name: Abnormal mitral valve leaflet morphology
+is_a: HP:0001633 ! Abnormal mitral valve morphology
+
+[Term]
+id: HP:0031566
+name: Abnormal pulmonary valve cusp morphology
+is_a: HP:0001641 ! Abnormal pulmonary valve morphology
+
+[Term]
+id: HP:0031567
+name: Abnormal aortic valve cusp morphology
+is_a: HP:0001646 ! Abnormal aortic valve morphology
+
+[Term]
+id: HP:0031568
+name: Thickened aortic valve cusp
+is_a: HP:0031567 ! Abnormal aortic valve cusp morphology
+
+[Term]
+id: HP:0031569
+name: Absent aortic valve cusps
+is_a: HP:0031567 ! Abnormal aortic valve cusp morphology
+
+[Term]
+id: HP:0031592
+name: Situs inversus with levocardia
+is_a: HP:0011534 ! Abnormal spatial orientation of the cardiac segments
+
+[Term]
+id: HP:0031655
+name: Quadricuspid aortic valve
+is_a: HP:0031567 ! Abnormal aortic valve cusp morphology
+
+[Term]
+id: HP:0031783
+name: Absent coronary sinus
+is_a: HP:0011642 ! Abnormal coronary sinus morphology
+
+[Term]
+id: HP:0031971
+name: Subaortic ventricular septal bulge
+is_a: HP:0011103 ! Abnormal left ventricular outflow tract morphology
+
+[Term]
+id: HP:0031992
+name: Apical hypertrophic cardiomyopathy
+is_a: HP:0001639 ! Hypertrophic cardiomyopathy
+
+[Term]
+id: HP:0032580
+name: Abnormal bulbus cordis morphology
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0033138
+name: Right atrial thrombus
+is_a: HP:0025580 ! Abnormal right atrium morphology
+
+[Term]
+id: HP:0033538
+name: Aortic annulus calcification
+is_a: HP:0004380 ! Aortic valve calcification
+
+[Term]
+id: HP:0033641
+name: Aortic valve leaflet calcification
+is_a: HP:0004380 ! Aortic valve calcification
+
+[Term]
+id: HP:0033642
+name: Mitral valve leaflet calcification
+is_a: HP:0004382 ! Mitral valve calcification
+
+[Term]
+id: HP:0033997
+name: Perinuclear cardiomyocyte vacuolization
+is_a: HP:0031331 ! Abnormal cardiomyocyte morphology
+
+[Term]
+id: HP:0034364
+name: Fibrofatty replacement of right ventricular myocardium
+is_a: HP:0001707 ! Abnormal right ventricle morphology
+
+[Term]
+id: HP:0034419
+name: Mitral chordae tendinae rupture
+is_a: HP:0025523 ! Abnormal morphology of the chordae tendinae of the mitral valve
+
+[Term]
+id: HP:0034532
+name: Increased myocardial glycogen content
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0034796
+name: Cardiomyocyte hyaline bodies
+is_a: HP:0031334 ! Cardiomyocyte inclusion bodies
+
+[Term]
+id: HP:0034835
+name: Cardiac polyglucosan accumulation
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:0040412
+name: Left ventricular thrombus
+is_a: HP:0001711 ! Abnormal left ventricle morphology
+
+[Term]
+id: HP:0045017
+name: Congenital malformation of the left heart
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0100004
+name: Pericardial mesothelioma
+is_a: HP:0001697 ! Abnormal pericardium morphology
+
+[Term]
+id: HP:0100544
+name: Neoplasm of the heart
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:0100571
+name: Cardiac diverticulum
+is_a: HP:0001713 ! Abnormal cardiac ventricle morphology
+
+[Term]
+id: HP:0100572
+name: Fibrous cardiac diverticulum
+is_a: HP:0006698 ! Dilatation of the ventricular cavity
+is_a: HP:0100571 ! Cardiac diverticulum
+
+[Term]
+id: HP:0100573
+name: Muscular cardiac diverticulum
+is_a: HP:0100571 ! Cardiac diverticulum
+
+[Term]
+id: HP:0100584
+name: Endocarditis
+is_a: HP:0004306 ! Abnormal endocardium morphology
+
+[Term]
+id: HP:0200127
+name: Atrial cardiomyopathy
+is_a: HP:0001638 ! Cardiomyopathy
+
+[Term]
+id: HP:0200128
+name: Biventricular hypertrophy
+is_a: HP:0001714 ! Ventricular hypertrophy
+
+[Term]
+id: HP:4000001
+name: Abnormal cardiac magnetic resonance imaging finding
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:4000003
+name: Elevated myocardial native T2
+is_a: HP:4000001 ! Abnormal cardiac magnetic resonance imaging finding
+
+[Term]
+id: HP:4000004
+name: Myocardial late gadolinium enhancement
+is_a: HP:4000001 ! Abnormal cardiac magnetic resonance imaging finding
+
+[Term]
+id: HP:4000005
+name: Pericardial late gadolinium enhancement
+is_a: HP:0001697 ! Abnormal pericardium morphology
+
+[Term]
+id: HP:4000006
+name: Elevated myocardial native T1
+is_a: HP:4000001 ! Abnormal cardiac magnetic resonance imaging finding
+
+[Term]
+id: HP:4000141
+name: Left ventricular dilatation
+is_a: HP:0001711 ! Abnormal left ventricle morphology
+
+[Term]
+id: HP:6000067
+name: Increased myocardial pyrophosphate uptake
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:6000144
+name: Left ventricular aneurysm
+is_a: HP:0001711 ! Abnormal left ventricle morphology
+
+[Term]
+id: HP:6000145
+name: Boot-shaped cardiac silhouette
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:6000326
+name: Cardiac valve vegetations
+is_a: HP:0001654 ! Abnormal heart valve morphology
+
+[Term]
+id: HP:6000342
+name: Thickened mitral valve cusp
+is_a: HP:0031480 ! Abnormal mitral valve leaflet morphology
+
+[Term]
+id: HP:6000663
+name: Elevated myocardial iron load
+is_a: HP:0001637 ! Abnormal myocardium morphology
+
+[Term]
+id: HP:6000667
+name: Right ventricular aneurysm
+is_a: HP:0001707 ! Abnormal right ventricle morphology
+
+[Term]
+id: HP:6000691
+name: Left atrial fibrosis
+is_a: HP:0025579 ! Abnormal left atrium morphology
+
+[Term]
+id: HP:6000847
+name: Cardiac mass
+is_a: HP:0001627 ! Abnormal heart morphology
+
+[Term]
+id: HP:6001036
+name: Left ventricular rupture
+is_a: HP:0001637 ! Abnormal myocardium morphology
+is_a: HP:0001711 ! Abnormal left ventricle morphology
+
+[Term]
+id: HP:6001068
+name: Thickened tricuspid valve cusp
+is_a: HP:0001702 ! Abnormal tricuspid valve morphology
+
